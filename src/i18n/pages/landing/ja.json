@@ -24,7 +24,7 @@
         },
         {
           "title": "16タイプ",
-          "url": "/types",
+          "url": "#",
           "icon": "RiGroupLine"
         }
       ]
@@ -280,7 +280,7 @@
         },
         {
           "title": "16タイプ",
-          "url": "/types"
+          "url": "#"
         }
       ]
     },
