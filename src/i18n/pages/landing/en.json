@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "Miniatur AI",
+      "title": "Love MBTI",
       "logo": {
         "src": "/logo.png",
-        "alt": "Miniatur AI"
+        "alt": "Love MBTI Test"
       },
       "url": "/"
     },
@@ -16,154 +16,128 @@
           "title": "Home",
           "url": "/",
           "icon": "RiHomeLine"
+        },
+        {
+          "title": "Take Quiz",
+          "url": "/quiz",
+          "icon": "RiHeartLine"
+        },
+        {
+          "title": "16 Types",
+          "url": "/types",
+          "icon": "RiGroupLine"
         }
       ]
     },
     "buttons": [],
     "show_sign": true,
-    "show_theme": true,
-    "show_locale": false
+    "show_theme": false,
+    "show_locale": true
   },
   "hero": {
-    "title": "Transform Photos into Miniature Masterpieces with Miniatur AI",
-    "highlight_text": "Miniatur AI",
-    "description": "Transform ordinary photos into extraordinary miniature worlds with stunning tilt-shift effects and captivating dioramas. Our advanced Miniatur AI technology analyzes every pixel to create authentic depth-of-field effects that rival expensive camera lenses. Just upload your photo and watch artificial intelligence create professional miniature masterpieces in seconds, perfect for social media, portfolios, and creative projects.",
+    "title": "Free Love MBTI Test -\n Discover Your True Love Personality",
+    "highlight_text": "Love MBTI",
+    "description": "Why do you keep meeting the wrong people? Why don't relationships last? The answer lies in your love personality! Through the Love MBTI personality test, uncover your true romantic patterns in 3 minutes and find your soulmate. 100,000+ users have found their answers. Completely free.",
     "announcement": {
       "label": "100% FREE",
-      "title": "NO LOGIN REQUIRED",
-      "url": "/#features"
+      "title": "NO REGISTRATION",
+      "url": "/quiz"
     },
-   
     "images": [
       {
         "src": "/imgs/features/1.png",
-        "alt": "Miniatur AI Photo Transformation Example 1",
-        "title": "Original Photo to Miniature"
+        "alt": "Love MBTI Test Example",
+        "title": "Your Love Personality"
       },
       {
         "src": "/imgs/features/2.png",
-        "alt": "Miniatur AI Photo Transformation Example 2", 
-        "title": "AI Figure Generation"
+        "alt": "Love Personality Analysis",
+        "title": "Compatibility Test"
       }
     ],
     "layout": "left-image-right-content",
     "enable_carousel": true,
     "buttons": [
       {
-        "title": "No Login Start Creating",
-        "icon": "RiMagicLine",
-        "url": "/#generator",
+        "title": "Start Free Test",
+        "icon": "RiHeartLine",
+        "url": "/quiz",
         "target": "_self",
         "variant": "default"
       }
     ],
     "stats": [
       {
-        "value": "12,847+",
-        "label": "Trusted Miniatur AI Users",
+        "value": "100,000+",
+        "label": "Test Users",
         "icon": "RiUserLine"
       },
       {
-        "value": "89,432+",
-        "label": "Miniature Images Generated",
-        "icon": "RiImageLine"
+        "value": "16",
+        "label": "Personality Types",
+        "icon": "RiHeartLine"
+      },
+      {
+        "value": "95%",
+        "label": "Satisfaction",
+        "icon": "RiStarLine"
       }
     ],
-    "show_happy_users": false,
-    "show_badge": false
-  },
-  "branding": {
-    "title": "Powered by cutting-edge AI technology",
-    "items": [
-      {
-        "title": "OpenAI",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "OpenAI"
-        }
-      },
-      {
-        "title": "Computer Vision",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "Computer Vision"
-        }
-      },
-      {
-        "title": "Neural Networks",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "Neural Networks"
-        }
-      },
-      {
-        "title": "Machine Learning",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Machine Learning"
-        }
-      },
-      {
-        "title": "Cloud Processing",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Cloud Processing"
-        }
-      }
-    ]
+    "show_happy_users": true,
+    "show_badge": true
   },
   "introduce": {
     "name": "introduce",
-    "title": "What is Miniatur AI",
-    "label": "Introduction",
-    "description": "Miniatur AI is a revolutionary free artificial intelligence platform that transforms ordinary photographs into stunning miniature masterpieces. Using advanced computer vision and machine learning algorithms, our intelligent tool analyzes image composition, depth, and lighting to create professional tilt-shift effects and realistic diorama scenes in seconds. Whether you're a professional photographer, content creator, or hobbyist, Miniatur AI delivers museum-quality miniature transformations with unparalleled precision and speed.",
+    "title": "What is Love MBTI Personality Test?",
+    "label": "About Test",
+    "description": "Love MBTI isn't just an ordinary personality test—it's your key to unlocking happy relationships. Based on classic MBTI personality type theory, specially optimized for romantic scenarios, it helps you see your true self in relationships—your love personality, emotional needs, communication style, and even blind spots you never knew existed.",
     "image": {
       "src": "/imgs/features/3.png"
     },
     "items": [
       {
-        "title": "AI-Powered Smart Analysis",
-        "description": "Our artificial intelligence system intelligently identifies focal points, depth layers, and spatial relationships in your photos to create authentic miniature effects with perfect blur gradients and professional depth-of-field simulation that matches real tilt-shift photography techniques.",
-        "icon": "RiRobot2Line"
+        "title": "Scientific and Accurate Personality Analysis",
+        "description": "Love MBTI is based on 16 personality types validated by psychology. Through four dimensions (Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, Judging/Perceiving), it accurately captures your love personality. Not fortune-telling—it's scientific psychological testing!",
+        "icon": "RiMicroscopeLine"
       },
       {
-        "title": "Multiple Miniature Styles",
-        "description": "Choose from tilt-shift photography, toy diorama effects, architectural miniature models, and collectible figure styles. Each AI-optimized preset delivers unique miniature characteristics tailored for different photo compositions and creative visions.",
-        "icon": "RiPaletteLine"
+        "title": "Understand Your Love Patterns",
+        "description": "Why are you always attracted to the same type of person? Why do relationships always have problems in similar places? The Love MBTI personality test will give you answers, helping you see your love personality code and avoid repeating mistakes.",
+        "icon": "RiHeartLine"
       },
       {
-        "title": "Instant AI Processing",
-        "description": "Advanced cloud-based artificial intelligence processing delivers professional miniature effects in under 10 seconds. No complex software installation, payment requirements, or technical expertise needed to create stunning results.",
-        "icon": "RiTimeLine"
+        "title": "Find Your Perfect Match",
+        "description": "Through Love MBTI compatibility testing, you'll know which personality types understand you best and suit you most. No more blind dating—purposefully seek that truly compatible soulmate.",
+        "icon": "RiUserHeartLine"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose Miniatur AI",
-    "label": "Benefits",
-    "description": "Professional photographers and content creators worldwide trust Miniatur AI for superior image analysis, authentic miniature effects, and lightning-fast AI processing. Our artificial intelligence system understands photography principles to deliver results that rival expensive camera equipment and hours of manual editing work.",
+    "title": "Why 100,000+ People Choose Our Love MBTI Test?",
+    "label": "Test Advantages",
+    "description": "With so many personality tests available, why does everyone choose us? Because we specialize in love and understand your heart. Our Love MBTI psychological test is refined by professional psychology teams and optimized with 100,000+ real user data, giving you the most accurate and heartfelt love personality analysis.",
     "items": [
       {
-        "title": "Professional Quality Miniature Results",
-        "description": "Miniatur AI produces museum-quality miniature effects that maintain proper depth of field, realistic blur patterns, and authentic tilt-shift characteristics found in professional miniature photography. Our AI ensures every transformation meets industry standards.",
-        "icon": "RiStarLine",
+        "title": "Finally Understanding Myself",
+        "description": "\"So this is who I am!\" This is what users say most often. Through the Love MBTI test, you'll have an epiphany: why you react certain ways in relationships, why you're always attracted to specific types. Understanding your personality type is the first step to happy love.",
+        "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/features/4.png"
         }
       },
       {
-        "title": "Intelligent Scene Recognition",
-        "description": "Our advanced AI analyzes architectural elements, landscapes, people, and objects to automatically apply the most suitable miniature effect for your specific photo content and composition. Smart artificial intelligence adapts to any scene type.",
-        "icon": "RiBrainLine",
+        "title": "No More Wrong People",
+        "description": "Love MBTI clearly tells you: which personality types are naturally compatible with you, which need work, which to avoid. With this \"love map,\" you can avoid many detours and invest your time and emotions in the right person.",
+        "icon": "RiPieChartLine",
         "image": {
           "src": "/imgs/features/6.png"
         }
       },
       {
-        "title": "Effortless Miniature Workflow",
-        "description": "Skip complex photo editing software and expensive equipment. Miniatur AI transforms your photos into professional miniature results with just one click, saving hours of manual work while delivering consistent high-quality outcomes.",
-        "icon": "RiSpeedLine",
+        "title": "Learning to Love Well",
+        "description": "Test results don't just tell you \"what personality type you are\"—more importantly, they teach you \"what to do.\" Based on your love personality, we provide super practical advice: how to communicate more effectively, how to resolve conflicts, how to keep relationships fresh. These are love secrets you can use immediately!",
+        "icon": "RiLightbulbLine",
         "image": {
           "src": "/imgs/features/7.png"
         }
@@ -172,8 +146,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "How to Create Miniatures with Miniatur AI",
-    "description": "Transform your photos into stunning miniature masterpieces in four simple steps. Our Miniatur AI system handles all complex image analysis and processing automatically, delivering professional miniature results every time with artificial intelligence precision.",
+    "title": "How to Take the Love MBTI Test? 3 Easy Steps",
+    "description": "No complicated operations, no lengthy forms. Just 3 steps, 5 minutes, and you'll get your personalized love personality analysis report. This psychological test is completely free and can be started anytime!",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -181,166 +155,100 @@
     "text_align": "center",
     "items": [
       {
-        "title": "Upload Your Photo",
-        "description": "Simply drag and drop any JPEG or PNG image up to 10MB. Miniatur AI accepts photos of landscapes, architecture, people, and objects for miniature transformation. Our AI works best with high-resolution images.",
-        "icon": "RiUploadLine"
+        "title": "Answer Questions Intuitively",
+        "description": "20-30 multiple-choice questions about love and personality—all very simple. Remember: follow your first instinct, don't overthink! The more honest your answers, the more accurate your Love MBTI personality test results.",
+        "icon": "RiQuestionnaireLine"
       },
       {
-        "title": "Choose Miniature Style",
-        "description": "Select from our AI-optimized presets: tilt-shift photography, toy diorama, architectural miniature model, or collectible figure style. Each preset is fine-tuned by artificial intelligence for different photo types and compositions.",
+        "title": "AI Smart Analysis",
+        "description": "The moment you hit submit, the system starts analyzing your answers. Through MBTI theory's four dimensions, it calculates your love personality type in seconds. So high-tech!",
         "icon": "RiSettings3Line"
       },
       {
-        "title": "AI Processing Magic",
-        "description": "Our Miniatur AI analyzes depth information, applies intelligent blur effects, and creates authentic miniature characteristics. Advanced artificial intelligence algorithms ensure professional-quality results in seconds.",
-        "icon": "RiMagicLine"
-      },
-      {
-        "title": "Download & Share",
-        "description": "Save your miniature creation in high resolution. Perfect for social media, portfolios, or printing. Share your unique AI-generated miniature art with the world and showcase professional transformation results.",
-        "icon": "RiDownloadLine"
+        "title": "Get Your Exclusive Report",
+        "description": "Your Love MBTI type, detailed personality analysis, love strengths, things to watch out for, best matches... it's all in this report! You can also share it with friends or crushes to discuss personality topics together.",
+        "icon": "RiFileTextLine"
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Advanced Miniatur AI Features",
-    "description": "Discover the powerful artificial intelligence capabilities that make our miniature generator the most advanced AI tool available for photo transformation and creative editing projects.",
+    "title": "What Can Love MBTI Test Tell You?",
+    "description": "Not just a simple personality label—our Love MBTI psychological test provides comprehensive love personality analysis, helping you truly understand yourself and love.",
     "items": [
       {
-        "title": "Smart Depth Detection",
-        "description": "Miniatur AI uses computer vision to analyze image depth and automatically create realistic focal planes, ensuring authentic tilt-shift miniature effects with professional depth-of-field accuracy.",
-        "icon": "RiEyeLine"
+        "title": "16 Love Personality Types",
+        "description": "From extroverted to introverted, from emotional to rational, 16 personality types each have their own charm. Every Love MBTI type has unique appeal and love style—find yours!",
+        "icon": "RiUserLine"
       },
       {
-        "title": "AI Style Optimization",
-        "description": "Our machine learning algorithms automatically adjust blur intensity, depth of field, and color saturation based on your photo's content and composition for optimal miniature results.",
-        "icon": "RiSettings2Line"
+        "title": "Compatibility Matching Test",
+        "description": "Check your compatibility scores with all MBTI types. Which are perfect matches, which need effort, which to stay away from—crystal clear!",
+        "icon": "RiHeartLine"
       },
       {
-        "title": "Batch Processing",
-        "description": "Upload multiple photos and apply consistent Miniatur AI effects across your entire collection. Perfect for creating cohesive miniature photography series with unified artificial intelligence processing.",
-        "icon": "RiStackLine"
+        "title": "Your Love Style",
+        "description": "Are you proactive or passive? Do you prefer romantic surprises or quiet warmth? Love MBTI deeply analyzes your emotional expression methods and communication habits.",
+        "icon": "RiEmotionLine"
       },
       {
-        "title": "High-Resolution Output",
-        "description": "Generate miniature images up to 4K resolution while maintaining crisp details and smooth blur transitions. Professional quality AI processing for any commercial or creative use case.",
-        "icon": "RiHdLine"
+        "title": "Strengths and Pitfalls",
+        "description": "What's your secret weapon in love? What are your potential landmines? Know yourself and know your partner—win every battle!",
+        "icon": "RiLineChartLine"
       },
       {
-        "title": "Real-time Preview",
-        "description": "See your miniature transformation instantly as you adjust settings. Miniatur AI provides immediate feedback for perfect results every time with live artificial intelligence processing.",
-        "icon": "RiLiveLine"
+        "title": "Couple Compatibility Analysis",
+        "description": "Already have a partner? Take the test together! See if your love personalities complement or mirror each other, where conflicts might arise, and how to get along better.",
+        "icon": "RiUserHeartLine"
       },
       {
-        "title": "Easy Export & Sharing",
-        "description": "Download your miniature creations in multiple formats or share directly to social media platforms. Showcase your AI-generated miniature art effortlessly with professional results.",
+        "title": "Share on Social Media",
+        "description": "Turn your Love MBTI results into beautiful cards and post on social media. Maybe your soulmate is waiting to see it!",
         "icon": "RiShareLine"
-      }
-    ]
-  },
-  "stats": {
-    "name": "stats",
-    "label": "Statistics",
-    "title": "Creators Trust Miniatur AI",
-    "description": "for professional-quality miniature effects and lightning-fast AI processing worldwide.",
-    "icon": "RiHeartLine",
-    "items": [
-      {
-        "title": "Trusted Users",
-        "label": "12,847+",
-        "description": "Creators"
-      },
-      {
-        "title": "Images Generated",
-        "label": "89,432+",
-        "description": "Miniatures"
-      },
-      {
-        "title": "Processing Speed",
-        "label": "<10",
-        "description": "Seconds"
-      }
-    ]
-  },
-  "testimonial": {
-    "name": "testimonial",
-    "label": "Testimonials",
-    "title": "What Creators Say About Miniatur AI",
-    "description": "Real feedback from photographers and artists using Miniatur AI for their creative projects and professional miniature transformations.",
-    "icon": "RiThumbUpLine",
-    "items": [
-      {
-        "title": "Sarah Mitchell",
-        "label": "Professional Photographer",
-        "description": "Miniatur AI delivers results that rival my expensive tilt-shift lens. The artificial intelligence understands depth better than any editing software I've used for miniature photography.",
-        "image": {
-          "src": "/imgs/users/1.png"
-        }
-      },
-      {
-        "title": "James Rodriguez",
-        "label": "Content Creator",
-        "description": "This AI is incredible! I create miniature-style content for Instagram in seconds. My engagement increased 300% since using Miniatur AI for social media content creation.",
-        "image": {
-          "src": "/imgs/users/2.png"
-        }
-      },
-      {
-        "title": "Emily Chen",
-        "label": "Digital Artist",
-        "description": "The miniature effects are so realistic. Miniatur AI saves me hours of manual editing while producing professional-quality results every time with advanced artificial intelligence processing.",
-        "image": {
-          "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "Michael Thompson",
-        "label": "Travel Blogger",
-        "description": "I use Miniatur AI for all my travel photos now. The miniature effects make ordinary scenes look like magical tiny worlds with professional AI transformation quality.",
-        "image": {
-          "src": "/imgs/users/6.png"
-        }
       }
     ]
   },
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About Miniatur AI",
-    "description": "Have questions about our AI miniature generator? Find answers here or contact our support team for assistance with miniature photo transformations.",
+    "title": "Love MBTI Frequently Asked Questions",
+    "description": "Everything you want to know about Love MBTI personality testing is here.",
     "items": [
       {
-        "title": "How does Miniatur AI create miniature effects?",
-        "description": "Miniatur AI uses advanced computer vision and machine learning algorithms to analyze image depth, identify focal points, and apply authentic tilt-shift effects. Our artificial intelligence understands photography principles to create realistic miniature transformations that rival professional camera equipment and manual editing techniques."
+        "title": "Is the Love MBTI test really free?",
+        "description": "100% free! No payment, no registration, no personal information required. Open and test immediately, finish and see results right away. Our basic Love MBTI personality test is permanently free. If you want deeper couple compatibility analysis, you can choose the paid premium version."
       },
       {
-        "title": "What photo types work best with Miniatur AI?",
-        "description": "Miniatur AI works excellently with landscapes, architecture, cityscapes, and aerial photography. Photos with clear depth and interesting subjects produce the most dramatic miniature effects. Our artificial intelligence automatically adapts to different photo compositions for optimal miniature transformation results."
+        "title": "How long does this psychological test take?",
+        "description": "5-10 minutes tops! 20-30 multiple-choice questions, all easy to answer. You can take it while having coffee or waiting for the subway. Pause anytime and continue whenever you want."
       },
       {
-        "title": "Can I use Miniatur AI commercially?",
-        "description": "Yes! All miniature images created with Miniatur AI can be used for commercial purposes including social media marketing, portfolio work, and client projects. You retain full rights to your AI-generated miniature creations and professional transformations."
+        "title": "Is the Love MBTI personality test accurate?",
+        "description": "Try it and see! Our Love MBTI is based on validated psychological theory, optimized with 100,000+ user data. 95% of users say \"It's so accurate!\" Of course, honest answers are key—fooling others is easy, fooling yourself is pointless."
       },
       {
-        "title": "What file formats does Miniatur AI support?",
-        "description": "Miniatur AI accepts JPEG, JPG, PNG, and WebP image formats up to 10MB in size. For best miniature transformation results, we recommend high-resolution photos with good lighting and clear depth of field for optimal AI processing."
+        "title": "Can I take it multiple times?",
+        "description": "Take it as many times as you want! However, personality types are relatively stable, so results won't change much in the short term. Try retaking after half a year or a year to see your personal growth."
       },
       {
-        "title": "Is Miniatur AI really free to use?",
-        "description": "Absolutely! Miniatur AI is completely free to use forever with no hidden costs, no signup required, and no watermarks. Enjoy unlimited miniature transformations with professional-quality AI results at zero cost for all your creative projects."
+        "title": "Is my privacy safe?",
+        "description": "Absolutely! Your Love MBTI test answers and results are encrypted and protected, never leaked to any third party. We care about your privacy more than you do. See our <a href='/privacy-policy'>Privacy Policy</a> for details."
+      },
+      {
+        "title": "Can I take it with my partner?",
+        "description": "Highly recommended! Couples taking the Love MBTI test together is super interesting. You can compare personality types, see if you're complementary or similar, understand each other's thinking patterns. It might solve many \"why are you like this\" questions!"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Transform Your Photos with Free Miniatur AI Today",
-    "description": "Join thousands of creators using our free artificial intelligence to create stunning miniature photography effects. Start your free miniature transformation journey now with advanced AI technology - no payment, no signup required!",
+    "title": "Ready to Meet Your True Self?",
+    "description": "100,000+ people have found answers through the Love MBTI test. Now it's your turn! Completely free, no registration, 3 minutes to reveal your love personality. Don't let not understanding yourself become a stumbling block to your happiness.",
     "buttons": [
       {
-        "title": "Start Free Now",
-        "icon": "RiGiftLine",
-        "url": "/#generator",
+        "title": "Start Free Test",
+        "icon": "RiHeartLine",
+        "url": "/quiz",
         "target": "_self",
         "variant": "default"
       }
@@ -349,74 +257,48 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "Miniatur AI",
-      "description": "Miniatur AI transforms ordinary photos into extraordinary miniature masterpieces using advanced artificial intelligence technology. Create professional tilt-shift effects, diorama scenes, and collectible-style miniatures in seconds with our revolutionary AI platform.",
+      "title": "Love MBTI",
+      "description": "Through scientific MBTI personality testing, help you understand your love personality, find your best match, and build healthier relationships.",
       "logo": {
         "src": "/logo.png",
-        "alt": "Miniatur AI"
+        "alt": "Love MBTI"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • Miniatur AI. All rights reserved.",
+    "copyright": "© 2025 • Love MBTI. All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "About",
-          "children": [
-            {
-             
-            }
-          ]
+          "title": "About Us",
+          "url": "/about"
         },
         {
-          "title": "Resources", 
-          "children": [
-            {
-              
-            }
-          ]
+          "title": "Blog",
+          "url": "/posts"
         },
         {
-          "title": "Friends",
-          "children": [
-            {
-             
-            }
-          ]
+          "title": "16 Types",
+          "url": "/types"
         }
       ]
     },
     "social": {
       "items": [
         {
-          "title": "X",
+          "title": "X (Twitter)",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/miniaturaiapp",
+          "url": "https://x.com/lovembti",
           "target": "_blank"
         },
         {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/miniaturaiapp",
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/lovembti",
           "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/miniaturaiapp",
-          "target": "_blank"
-        },
-        {
-          "title": "Email",
-          "icon": "RiMailLine",
-          "url": "mailto:support@miniaturaiapp.com",
-          "target": "_self"
         }
       ]
     },
-    "badges": [
-    
-    ],
+    "badges": [],
     "agreement": {
       "items": [
         {

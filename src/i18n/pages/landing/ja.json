@@ -1,0 +1,317 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "恋愛MBTI",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "恋愛MBTI診断"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "ホーム",
+          "url": "/",
+          "icon": "RiHomeLine"
+        },
+        {
+          "title": "診断する",
+          "url": "#",
+          "icon": "RiHeartLine"
+        },
+        {
+          "title": "16タイプ",
+          "url": "/types",
+          "icon": "RiGroupLine"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": true,
+    "show_theme": false,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "無料恋愛MBTI診断 -\nあなたの本当の恋愛性格を発見",
+    "highlight_text": "恋愛MBTI",
+    "description": "なぜいつも合わない人に出会うの？なぜ恋愛が長続きしないの？答えはあなたの恋愛性格に隠されています！恋愛MBTI性格診断で、3分であなたの本当の恋愛パターンを解明し、運命の相手を見つけましょう。10万人以上がすでに答えを見つけました。完全無料です。",
+    "announcement": {
+      "label": "100%無料",
+      "title": "登録不要",
+      "url": "#"
+    },
+    "images": [
+      {
+        "src": "/imgs/features/1.png",
+        "alt": "恋愛MBTI診断例",
+        "title": "あなたの恋愛性格"
+      },
+      {
+        "src": "/imgs/features/2.png",
+        "alt": "恋愛性格分析",
+        "title": "相性診断"
+      }
+    ],
+    "layout": "left-image-right-content",
+    "enable_carousel": true,
+    "buttons": [
+      {
+        "title": "今すぐ無料で診断",
+        "icon": "RiHeartLine",
+        "url": "#",
+        "target": "_self",
+        "variant": "default",
+        "disabled": true
+      }
+    ],
+    "stats": [
+      {
+        "value": "100,000+",
+        "label": "診断ユーザー",
+        "icon": "RiUserLine"
+      },
+      {
+        "value": "16",
+        "label": "性格タイプ",
+        "icon": "RiHeartLine"
+      },
+      {
+        "value": "95%",
+        "label": "満足度",
+        "icon": "RiStarLine"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "恋愛MBTI性格診断とは？",
+    "label": "診断について",
+    "description": "恋愛MBTIは単なる性格診断ではありません。幸せな恋愛への扉を開く鍵です。クラシックなMBTI人格タイプ理論をベースに、恋愛シーンに特化して最適化。あなたの恋愛性格、感情的ニーズ、コミュニケーション方法、さらに自分でも気づいていない恋愛の盲点まで見えてきます。",
+    "image": {
+      "src": "/imgs/features/3.png"
+    },
+    "items": [
+      {
+        "title": "科学的で正確な性格解析",
+        "description": "恋愛MBTIは心理学で検証された16種類の人格タイプに基づいています。外向/内向、感覚/直感、思考/感情、判断/知覚の4つの次元から、あなたの恋愛性格を正確に捉えます。占いではなく、科学的な心理テストです！",
+        "icon": "RiMicroscopeLine"
+      },
+      {
+        "title": "あなたの恋愛パターンを理解",
+        "description": "なぜいつも同じタイプの人に惹かれるの？なぜ恋愛がいつも同じところで問題になるの？恋愛MBTI性格診断が答えを教えてくれます。自分の恋愛性格の暗号を見抜き、同じ過ちを繰り返さないように。",
+        "icon": "RiHeartLine"
+      },
+      {
+        "title": "最高の相手を見つける",
+        "description": "恋愛MBTIマッチング診断を通じて、どの性格タイプの人があなたを最も理解し、最も合うかがわかります。もう盲目的に恋愛するのではなく、本当に相性の良いソウルメイトを目指して探しましょう。",
+        "icon": "RiUserHeartLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "なぜ10万人以上が私たちの恋愛MBTI診断を選ぶのか？",
+    "label": "診断の強み",
+    "description": "性格診断はたくさんあるのに、なぜみんな私たちを選ぶの？それは私たちが恋愛分野に特化し、あなたの心を理解しているから。私たちの恋愛MBTI心理テストは、専門の心理学チームが磨き上げ、10万人以上の実際のユーザーデータで最適化。最も正確で、最も心に響く恋愛性格分析を提供します。",
+    "items": [
+      {
+        "title": "やっと自分がわかった",
+        "description": "「私ってこういう人だったんだ！」これがユーザーが最もよく言う言葉です。恋愛MBTI診断を通じて、あなたは目から鱗が落ちるでしょう：なぜ恋愛でこんな反応をするのか、なぜいつも特定のタイプの人に惹かれるのか。自分の性格タイプを理解することが、幸せな恋愛への第一歩です。",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      },
+      {
+        "title": "もう間違った人に会わない",
+        "description": "恋愛MBTIははっきり教えてくれます：どの人格タイプとあなたは天性の相性、どれは努力が必要、どれは避けた方がいい。この「恋愛地図」があれば、多くの回り道を避けられ、時間と感情を正しい人に投資できます。",
+        "icon": "RiPieChartLine",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "愛し方を学ぶ",
+        "description": "診断結果は「あなたはどんな性格タイプか」を教えるだけでなく、もっと重要なのは「どうすればいいか」を教えてくれること。あなたの恋愛性格に基づいて、超実用的なアドバイスを提供：どうコミュニケーションすればより効果的か、どう矛盾を解決するか、どう関係を新鮮に保つか。これらはすぐに使える恋愛の秘訣です！",
+        "icon": "RiLightbulbLine",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "恋愛MBTI診断の受け方は？3ステップで完了",
+    "description": "複雑な操作は不要、たくさんの情報を入力する必要もありません。たった3ステップ、5分で、あなた専用の恋愛性格分析レポートが手に入ります。この心理テストは完全無料、いつでも始められます！",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "直感で質問に答える",
+        "description": "恋愛と性格に関する20-30問の選択問題、とても簡単です。覚えておいて：第一感覚に従って、考えすぎないで！正直な回答ほど、恋愛MBTI性格診断の結果は正確になります。",
+        "icon": "RiQuestionnaireLine"
+      },
+      {
+        "title": "AI知能分析",
+        "description": "送信ボタンを押した瞬間、システムがあなたの回答を分析し始めます。MBTI理論の4つの次元を通じて、数秒であなたの恋愛人格タイプを算出。テクノロジー感満載！",
+        "icon": "RiSettings3Line"
+      },
+      {
+        "title": "専用レポートを取得",
+        "description": "あなたの恋愛MBTIタイプ、詳細な性格分析、恋愛の強み、注意点、最適な相性……すべてこのレポートに！友達や気になる人とシェアして、性格について一緒に話し合うこともできます。",
+        "icon": "RiFileTextLine"
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "恋愛MBTI診断で何がわかる？",
+    "description": "単純な性格ラベルではありません。私たちの恋愛MBTI心理テストは、全方位の恋愛性格分析を提供し、本当に自分を、恋愛を理解できるようにします。",
+    "items": [
+      {
+        "title": "16種類の恋愛人格タイプ",
+        "description": "外向型から内向型まで、感性から理性まで、16種類の性格タイプはそれぞれ特色があります。各恋愛MBTIタイプには独特の魅力と恋愛スタイルがあり、あなたに属するものを見つけましょう！",
+        "icon": "RiUserLine"
+      },
+      {
+        "title": "相性マッチング診断",
+        "description": "すべてのMBTIタイプとのマッチング度スコアを確認。どれが天性の相性、どれは努力が必要、どれは避けた方がいい——一目瞭然！",
+        "icon": "RiHeartLine"
+      },
+      {
+        "title": "あなたの恋愛スタイル",
+        "description": "あなたは積極的に攻める？それとも受け身で待つ？ロマンチックなサプライズが好き？それとも平凡な温もり？恋愛MBTIがあなたの感情表現方法とコミュニケーション習慣を深く解析します。",
+        "icon": "RiEmotionLine"
+      },
+      {
+        "title": "強みと地雷",
+        "description": "あなたの恋愛における必殺技は何？また、どこが地雷を踏みやすい？己を知り彼を知れば百戦危うからず！",
+        "icon": "RiLineChartLine"
+      },
+      {
+        "title": "カップル相性分析",
+        "description": "すでにパートナーがいる？一緒に診断を受けましょう！あなたたちの恋愛性格が補完型か類似型か、どこで矛盾が生じやすいか、どう付き合えばより調和するかがわかります。",
+        "icon": "RiUserHeartLine"
+      },
+      {
+        "title": "SNSでシェア",
+        "description": "あなたの恋愛MBTI結果を美しいカードにして、SNSに投稿。もしかしたらあなたのソウルメイトが見るのを待っているかも！",
+        "icon": "RiShareLine"
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "よくある質問",
+    "title": "恋愛MBTIよくある質問",
+    "description": "恋愛MBTI性格診断について、知りたいことはすべてここに。",
+    "items": [
+      {
+        "title": "恋愛MBTI診断は本当に無料？",
+        "description": "100%無料！お金も、登録も、個人情報の入力も不要。開いたらすぐ診断でき、終わったらすぐ結果が見られます。私たちの基本恋愛MBTI性格診断は永久無料。もっと深いカップル相性分析が必要なら、有料プレミアム版を選べます。"
+      },
+      {
+        "title": "この心理テストにどのくらい時間がかかる？",
+        "description": "5-10分で完了！20-30問の選択問題、とても答えやすいです。コーヒーを飲みながら、または地下鉄を待ちながら診断できます。いつでも一時停止でき、続きたいときに続けられます。"
+      },
+      {
+        "title": "恋愛MBTI性格診断は正確？",
+        "description": "正確かどうか、やってみればわかる！私たちの恋愛MBTIは検証済みの心理学理論に基づき、10万人以上のユーザーデータで最適化。95%のユーザーが「すごく当たってる！」と言っています。もちろん、正直に答えることが鍵——他人を騙すのは簡単、自分を騙しても意味がありません。"
+      },
+      {
+        "title": "何度も診断できる？",
+        "description": "何度でも診断できます！ただし、性格タイプは比較的安定しているので、短期間に何度やっても結果はほぼ同じ。半年か1年後に再診断すれば、自分の成長の変化が見られるかもしれません。"
+      },
+      {
+        "title": "プライバシーは安全？",
+        "description": "安心してください！あなたの恋愛MBTI診断の回答と結果は暗号化保護され、絶対に第三者に漏れることはありません。私たちはあなた以上にあなたのプライバシーを大切にしています。詳しくは<a href='/privacy-policy'>プライバシーポリシー</a>をご覧ください。"
+      },
+      {
+        "title": "パートナーと一緒に診断できる？",
+        "description": "強くおすすめします！カップルで恋愛MBTI診断を受けるのはとても面白いです。人格タイプを比較して、補完型か類似型か、お互いの思考方法を理解できます。「なぜあなたはこうなの」という多くの疑問が解決できるかも！"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "本当の自分を知る準備はできましたか？",
+    "description": "10万人以上が恋愛MBTI診断で答えを見つけました。次はあなたの番です！完全無料、登録不要、3分であなたの恋愛性格を解明。自分を理解しないことが、あなたの幸せの障害にならないように。",
+    "buttons": [
+      {
+        "title": "今すぐ無料で診断",
+        "icon": "RiHeartLine",
+        "url": "#",
+        "target": "_self",
+        "variant": "default",
+        "disabled": true
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "恋愛MBTI",
+      "description": "科学的なMBTI性格診断を通じて、あなたの恋愛性格を理解し、最も合うパートナーを見つけ、より健康的な恋愛関係を築くお手伝いをします。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "恋愛MBTI"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • 恋愛MBTI. All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "私たちについて",
+          "url": "/about"
+        },
+        {
+          "title": "ブログ",
+          "url": "/posts"
+        },
+        {
+          "title": "16タイプ",
+          "url": "/types"
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X (Twitter)",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/lovembti",
+          "target": "_blank"
+        },
+        {
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/lovembti",
+          "target": "_blank"
+        }
+      ]
+    },
+    "badges": [],
+    "agreement": {
+      "items": [
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

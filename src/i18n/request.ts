@@ -15,6 +15,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = "pt";
   }
 
+  // 添加日文变体支持
+  if (["ja-JP", "ja-JA"].includes(locale)) {
+    locale = "ja";
+  }
+
   if (!routing.locales.includes(locale as any)) {
     locale = "en";
   }

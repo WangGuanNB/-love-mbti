@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "Miniatur AI",
+      "title": "恋爱MBTI",
       "logo": {
         "src": "/logo.png",
-        "alt": "Miniatur AI"
+        "alt": "恋爱MBTI测试"
       },
       "url": "/"
     },
@@ -16,6 +16,16 @@
           "title": "首页",
           "url": "/",
           "icon": "RiHomeLine"
+        },
+        {
+          "title": "开始测试",
+          "url": "/quiz",
+          "icon": "RiHeartLine"
+        },
+        {
+          "title": "16种类型",
+          "url": "/types",
+          "icon": "RiGroupLine"
         }
       ]
     },
@@ -25,145 +35,109 @@
     "show_locale": true
   },
   "hero": {
-    "title": "用 Miniatur AI 将照片转换为微缩杰作",
-    "highlight_text": "Miniatur AI",
-    "description": "将普通照片转换为非凡的微缩世界，具有惊人的移轴效果和迷人的立体模型。我们先进的 Miniatur AI 技术分析每个像素，创建真实的景深效果，媲美昂贵的相机镜头。只需上传您的照片，观看人工智能在几秒钟内创建专业的微缩杰作，完美适用于社交媒体、作品集和创意项目。",
+    "title": "免费恋爱MBTI测试 -\n 发现你的真实恋爱性格",
+    "highlight_text": "恋爱MBTI",
+    "description": "为什么总是遇到不合适的人？为什么感情总是走不长？答案藏在你的恋爱性格里！通过恋爱MBTI性格测试，3分钟揭秘你的真实恋爱模式，找到命中注定的那个TA。10万+用户已找到答案，完全免费。",
     "announcement": {
-      "label": "100% 免费",
-      "title": "无需登录",
-      "url": "/#features"
+      "label": "100%免费",
+      "title": "无需注册",
+      "url": "/quiz"
     },
-  
     "images": [
       {
         "src": "/imgs/features/1.png",
-        "alt": "Miniatur AI 照片转换示例 1",
-        "title": "原始照片到微缩"
+        "alt": "恋爱MBTI测试示例",
+        "title": "你的恋爱性格"
       },
       {
         "src": "/imgs/features/2.png",
-        "alt": "Miniatur AI 照片转换示例 2", 
-        "title": "AI 人物生成"
+        "alt": "恋爱性格分析",
+        "title": "相性测试"
       }
     ],
     "layout": "left-image-right-content",
     "enable_carousel": true,
     "buttons": [
       {
-        "title": "无需登录开始创作",
-        "icon": "RiMagicLine",
-        "url": "/#generator",
+        "title": "立即免费测试",
+        "icon": "RiHeartLine",
+        "url": "/quiz",
         "target": "_self",
         "variant": "default"
       }
     ],
     "stats": [
       {
-        "value": "12,847+",
-        "label": "信赖 Miniatur AI 的用户",
+        "value": "100,000+",
+        "label": "测试用户",
         "icon": "RiUserLine"
       },
       {
-        "value": "89,432+",
-        "label": "生成的微缩图像",
-        "icon": "RiImageLine"
+        "value": "16",
+        "label": "性格类型",
+        "icon": "RiHeartLine"
+      },
+      {
+        "value": "95%",
+        "label": "满意度",
+        "icon": "RiStarLine"
       }
     ],
     "show_happy_users": true,
     "show_badge": true
   },
-  "branding": {
-    "title": "由尖端AI技术驱动",
-    "items": [
-      {
-        "title": "OpenAI",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "OpenAI"
-        }
-      },
-      {
-        "title": "计算机视觉",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "计算机视觉"
-        }
-      },
-      {
-        "title": "神经网络",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "神经网络"
-        }
-      },
-      {
-        "title": "机器学习",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "机器学习"
-        }
-      },
-      {
-        "title": "云端处理",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "云端处理"
-        }
-      }
-    ]
-  },
   "introduce": {
     "name": "introduce",
-    "title": "什么是 Miniatur AI",
-    "label": "简介",
-    "description": "Miniatur AI 是一个革命性的免费人工智能平台，能将普通照片转换为令人惊叹的微缩杰作。使用先进的计算机视觉和机器学习算法，我们的智能工具分析图像构图、深度和光线，在几秒钟内创建专业的移轴效果和逼真的立体模型场景。无论您是专业摄影师、内容创作者还是爱好者，Miniatur AI 都能以无与伦比的精确度和速度提供博物馆级质量的微缩转换。",
+    "title": "什么是恋爱MBTI性格测试？",
+    "label": "关于测试",
+    "description": "恋爱MBTI不只是一个普通的性格测试，它是你打开幸福恋爱大门的钥匙。基于经典MBTI人格类型理论，专门针对恋爱场景优化，帮你看清自己在感情中的真实样子——你的恋爱性格、情感需求、沟通方式，甚至那些你自己都没意识到的恋爱盲区。",
     "image": {
       "src": "/imgs/features/3.png"
     },
     "items": [
       {
-        "title": "AI驱动的智能分析",
-        "description": "我们的人工智能系统智能识别照片中的焦点、深度层和空间关系，创建真实的微缩效果，具有完美的模糊渐变和专业的景深模拟，媲美真实的移轴摄影技术。",
-        "icon": "RiRobot2Line"
+        "title": "科学又准确的性格解析",
+        "description": "恋爱MBTI基于心理学验证的16种人格类型。通过外向/内向、感觉/直觉、思考/情感、判断/感知四个维度，精准捕捉你的恋爱性格。不是算命，是科学的心理测试！",
+        "icon": "RiMicroscopeLine"
       },
       {
-        "title": "多种微缩风格",
-        "description": "选择移轴摄影、玩具立体模型效果、建筑微缩模型和收藏人物风格。每个AI优化的预设都能为不同的照片构图和创意愿景提供独特的微缩特色。",
-        "icon": "RiPaletteLine"
+        "title": "看懂你的恋爱模式",
+        "description": "为什么你总是被同一类人吸引？为什么感情总在相似的地方出问题？恋爱MBTI性格测试会告诉你答案，让你看清自己的恋爱性格密码，不再重蹈覆辙。",
+        "icon": "RiHeartLine"
       },
       {
-        "title": "即时AI处理",
-        "description": "先进的基于云端的人工智能处理在10秒内提供专业的微缩效果。无需复杂的软件安装、付费要求或技术专业知识即可创建惊人的结果。",
-        "icon": "RiTimeLine"
+        "title": "找到最配的那个人",
+        "description": "通过恋爱MBTI配对测试，你能知道哪种性格类型的人最懂你、最适合你。不再盲目恋爱，而是有目标地寻找那个真正契合的灵魂伴侣。",
+        "icon": "RiUserHeartLine"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么选择 Miniatur AI",
-    "label": "优势",
-    "description": "全球的专业摄影师和内容创作者信赖 Miniatur AI 提供优质的图像分析、真实的微缩效果和闪电般快速的AI处理。我们的人工智能系统理解摄影原理，提供媲美昂贵相机设备和数小时手动编辑工作的结果。",
+    "title": "为什么10万+人选择我们的恋爱MBTI测试？",
+    "label": "测试优势",
+    "description": "市面上性格测试那么多，为什么大家都选我们？因为我们专注恋爱领域，懂你的心。我们的恋爱MBTI心理测试经过专业心理学团队打磨，结合10万+真实用户数据优化，给你最准确、最走心的恋爱性格分析。",
     "items": [
       {
-        "title": "专业品质的微缩结果",
-        "description": "Miniatur AI 产生博物馆级质量的微缩效果，保持适当的景深、真实的模糊图案和专业微缩摄影中的真实移轴特色。我们的AI确保每次转换都符合行业标准。",
-        "icon": "RiStarLine",
+        "title": "终于看懂自己了",
+        "description": "原来我是这样的人！这是用户最常说的话。通过恋爱MBTI测试，你会恍然大悟：为什么自己在恋爱中会有这些反应，为什么总被某类人吸引。了解自己的性格类型，是幸福恋爱的第一步。",
+        "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/features/4.png"
         }
       },
       {
-        "title": "智能场景识别",
-        "description": "我们先进的AI分析建筑元素、风景、人物和物体，为您特定的照片内容和构图自动应用最适合的微缩效果。智能人工智能适应任何场景类型。",
-        "icon": "RiBrainLine",
+        "title": "不再遇到错的人",
+        "description": "恋爱MBTI会明确告诉你：哪些人格类型和你天生一对，哪些需要磨合，哪些最好避开。有了这份恋爱地图，你能少走很多弯路，把时间和感情投资在对的人身上。",
+        "icon": "RiPieChartLine",
         "image": {
           "src": "/imgs/features/6.png"
         }
       },
       {
-        "title": "轻松的微缩工作流程",
-        "description": "跳过复杂的照片编辑软件和昂贵的设备。Miniatur AI 只需一键就能将您的照片转换为专业的微缩结果，节省数小时的手动工作，同时提供一致的高质量成果。",
-        "icon": "RiSpeedLine",
+        "title": "学会好好爱人",
+        "description": "测试结果不只是告诉你你是什么性格类型，更重要的是教你怎么做。根据你的恋爱性格，我们给出超实用的建议：怎么沟通更有效、怎么化解矛盾、怎么让感情保鲜。这些都是你立刻就能用上的恋爱秘籍！",
+        "icon": "RiLightbulbLine",
         "image": {
           "src": "/imgs/features/7.png"
         }
@@ -172,8 +146,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "如何使用 Miniatur AI 创建微缩作品",
-    "description": "通过四个简单步骤将您的照片转换为令人惊叹的微缩杰作。我们的 Miniatur AI 系统自动处理所有复杂的图像分析和处理，每次都能以人工智能精度提供专业的微缩结果。",
+    "title": "如何进行恋爱MBTI测试？3步搞定",
+    "description": "不用复杂的操作，不用填一堆资料。只需3步，5分钟，你就能获得一份专属的恋爱性格分析报告。这个心理测试完全免费，随时可以开始！",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -181,166 +155,100 @@
     "text_align": "center",
     "items": [
       {
-        "title": "上传您的照片",
-        "description": "简单地拖放任何最大10MB的JPEG或PNG图像。Miniatur AI 接受风景、建筑、人物和物体的照片进行微缩转换。我们的AI在高分辨率图像上效果最佳。",
-        "icon": "RiUploadLine"
+        "title": "凭直觉回答问题",
+        "description": "20-30道关于恋爱和性格的选择题，都很简单。记住：跟着第一感觉走，别想太多！越真实的回答，恋爱MBTI性格测试结果就越准。",
+        "icon": "RiQuestionnaireLine"
       },
       {
-        "title": "选择微缩风格",
-        "description": "从我们的AI优化预设中选择：移轴摄影、玩具立体模型、建筑微缩模型或收藏人物风格。每个预设都通过人工智能为不同的照片类型和构图进行了精细调整。",
+        "title": "AI智能分析",
+        "description": "点击提交的瞬间，系统就开始分析你的答案。通过MBTI理论的四个维度，几秒钟就能算出你的恋爱人格类型。科技感满满！",
         "icon": "RiSettings3Line"
       },
       {
-        "title": "AI处理魔法",
-        "description": "我们的 Miniatur AI 分析深度信息，应用智能模糊效果，创建真实的微缩特色。先进的人工智能算法确保在几秒钟内获得专业级质量的结果。",
-        "icon": "RiMagicLine"
-      },
-      {
-        "title": "下载和分享",
-        "description": "以高分辨率保存您的微缩作品。完美适用于社交媒体、作品集或打印。与世界分享您独特的AI生成微缩艺术，展示专业的转换结果。",
-        "icon": "RiDownloadLine"
+        "title": "获取专属报告",
+        "description": "你的恋爱MBTI类型、详细性格分析、恋爱优势、注意事项、最佳配对……全都在这份报告里！还能分享给朋友或暗恋对象，一起探讨性格话题。",
+        "icon": "RiFileTextLine"
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Miniatur AI 高级功能",
-    "description": "探索强大的人工智能功能，使我们的微缩生成器成为照片转换和创意编辑项目最先进的AI工具。",
+    "title": "恋爱MBTI测试能告诉你什么？",
+    "description": "不只是一个简单的性格标签，我们的恋爱MBTI心理测试提供全方位的恋爱性格分析，让你真正读懂自己、读懂爱情。",
     "items": [
       {
-        "title": "智能深度检测",
-        "description": "Miniatur AI 使用计算机视觉分析图像深度并自动创建真实的焦点平面，确保具有专业景深准确性的真实移轴微缩效果。",
-        "icon": "RiEyeLine"
+        "title": "16种恋爱人格类型",
+        "description": "从外向型到内向型，从感性到理性，16种性格类型各有千秋。每种恋爱MBTI类型都有独特的魅力和恋爱方式，找到属于你的那一个！",
+        "icon": "RiUserLine"
       },
       {
-        "title": "AI风格优化",
-        "description": "我们的机器学习算法根据您照片的内容和构图自动调整模糊强度、景深和色彩饱和度，以获得最佳的微缩结果。",
-        "icon": "RiSettings2Line"
+        "title": "相性配对测试",
+        "description": "查看你与所有MBTI类型的匹配度评分。哪些是天生一对，哪些需要努力，哪些最好敬而远之——一目了然！",
+        "icon": "RiHeartLine"
       },
       {
-        "title": "批量处理",
-        "description": "上传多张照片并在整个收藏中应用一致的 Miniatur AI 效果。完美适合创建具有统一人工智能处理的凝聚微缩摄影系列。",
-        "icon": "RiStackLine"
+        "title": "你的恋爱风格",
+        "description": "你是主动出击还是被动等待？喜欢浪漫惊喜还是平淡温馨？恋爱MBTI深度解析你的情感表达方式和沟通习惯。",
+        "icon": "RiEmotionLine"
       },
       {
-        "title": "高分辨率输出",
-        "description": "生成高达4K分辨率的微缩图像，同时保持清晰的细节和平滑的模糊过渡。专业级质量的AI处理适用于任何商业或创意用例。",
-        "icon": "RiHdLine"
+        "title": "优势和雷区",
+        "description": "你在恋爱中的杀手锏是什么？又有哪些容易踩雷的地方？知己知彼，才能百战不殆！",
+        "icon": "RiLineChartLine"
       },
       {
-        "title": "实时预览",
-        "description": "在调整设置时即时查看您的微缩转换。Miniatur AI 通过实时人工智能处理为每次完美结果提供即时反馈。",
-        "icon": "RiLiveLine"
+        "title": "情侣配对分析",
+        "description": "已经有对象？拉TA一起测！看看你们的恋爱性格是互补还是相似，哪里容易产生矛盾，怎么相处更和谐。",
+        "icon": "RiUserHeartLine"
       },
       {
-        "title": "轻松导出和分享",
-        "description": "以多种格式下载您的微缩作品或直接分享到社交媒体平台。轻松展示您的AI生成微缩艺术，获得专业结果。",
+        "title": "分享到社交圈",
+        "description": "把你的恋爱MBTI结果做成精美卡片，发朋友圈、发微博。说不定你的灵魂伴侣正在等着看到呢！",
         "icon": "RiShareLine"
-      }
-    ]
-  },
-  "stats": {
-    "name": "stats",
-    "label": "统计",
-    "title": "创作者信赖 Miniatur AI",
-    "description": "在全球范围内获得专业品质的微缩效果和闪电般快速的AI处理。",
-    "icon": "RiHeartLine",
-    "items": [
-      {
-        "title": "信赖用户",
-        "label": "12,847+",
-        "description": "创作者"
-      },
-      {
-        "title": "生成图像",
-        "label": "89,432+",
-        "description": "微缩作品"
-      },
-      {
-        "title": "处理速度",
-        "label": "<10",
-        "description": "秒"
-      }
-    ]
-  },
-  "testimonial": {
-    "name": "testimonial",
-    "label": "推荐",
-    "title": "创作者对 Miniatur AI 的评价",
-    "description": "来自使用 Miniatur AI 进行创意项目和专业微缩转换的摄影师和艺术家的真实反馈。",
-    "icon": "RiThumbUpLine",
-    "items": [
-      {
-        "title": "莎拉·米切尔",
-        "label": "专业摄影师",
-        "description": "Miniatur AI 提供的结果媲美我昂贵的移轴镜头。这个人工智能比我用过的任何编辑软件都更好地理解微缩摄影的深度。",
-        "image": {
-          "src": "/imgs/users/1.png"
-        }
-      },
-      {
-        "title": "詹姆斯·罗德里格斯",
-        "label": "内容创作者",
-        "description": "这个AI太不可思议了！我可以在几秒钟内为Instagram创建微缩风格的内容。自从使用 Miniatur AI 进行社交媒体内容创作以来，我的参与度增加了300%。",
-        "image": {
-          "src": "/imgs/users/2.png"
-        }
-      },
-      {
-        "title": "艾米莉·陈",
-        "label": "数字艺术家",
-        "description": "微缩效果如此逼真。Miniatur AI 为我节省了数小时的手动编辑时间，同时通过先进的人工智能处理每次都能产生专业级质量的结果。",
-        "image": {
-          "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "迈克尔·汤普森",
-        "label": "旅行博主",
-        "description": "现在我所有的旅行照片都使用 Miniatur AI。微缩效果让普通场景看起来像魔法般的小世界，具有专业AI转换质量。",
-        "image": {
-          "src": "/imgs/users/6.png"
-        }
       }
     ]
   },
   "faq": {
     "name": "faq",
     "label": "常见问题",
-    "title": "关于 Miniatur AI 的常见问题",
-    "description": "对我们的AI微缩生成器有疑问？在这里找到答案，或联系我们的支持团队获取微缩照片转换的帮助。",
+    "title": "恋爱MBTI常见问题解答",
+    "description": "关于恋爱MBTI性格测试，你想知道的都在这里。",
     "items": [
       {
-        "title": "Miniatur AI 如何创建微缩效果？",
-        "description": "Miniatur AI 使用先进的计算机视觉和机器学习算法分析图像深度、识别焦点并应用真实的移轴效果。我们的人工智能理解摄影原理，创建媲美专业相机设备和手动编辑技术的真实微缩转换。"
+        "title": "恋爱MBTI测试真的免费吗？",
+        "description": "100%免费！不要钱，不要注册，不要填一堆个人信息。打开就能测，测完就能看结果。我们的基础恋爱MBTI性格测试永久免费。如果你想要更深入的情侣配对分析，可以选择付费高级版。"
       },
       {
-        "title": "什么类型的照片最适合 Miniatur AI？",
-        "description": "Miniatur AI 在风景、建筑、城市景观和航拍摄影上效果极佳。具有清晰深度和有趣主题的照片能产生最戏剧性的微缩效果。我们的人工智能自动适应不同的照片构图，以获得最佳的微缩转换结果。"
+        "title": "这个心理测试要花多长时间？",
+        "description": "5-10分钟搞定！20-30道选择题，都很好答。你可以边喝咖啡边测，或者等地铁的时候测。随时可以暂停，想什么时候继续都行。"
       },
       {
-        "title": "我可以商用 Miniatur AI 吗？",
-        "description": "可以！使用 Miniatur AI 创建的所有微缩图像都可以用于商业目的，包括社交媒体营销、作品集工作和客户项目。您保留对AI生成的微缩作品和专业转换的完全权利。"
+        "title": "恋爱MBTI性格测试准吗？",
+        "description": "准不准，测了就知道！我们的恋爱MBTI基于经过验证的心理学理论，加上10万+用户数据优化。95%的用户说太准了！当然，诚实作答是关键——骗别人容易，骗自己就没意思了。"
       },
       {
-        "title": "Miniatur AI 支持哪些文件格式？",
-        "description": "Miniatur AI 接受最大10MB的JPEG、JPG、PNG和WebP图像格式。为了获得最佳的微缩转换结果，我们建议使用具有良好光线和清晰景深的高分辨率照片，以实现最佳的AI处理效果。"
+        "title": "可以测很多次吗？",
+        "description": "想测几次测几次！不过，性格类型这东西比较稳定，短期内测多少次结果都差不多。建议隔半年或一年再测，看看自己有没有成长变化。"
       },
       {
-        "title": "Miniatur AI 真的免费使用吗？",
-        "description": "绝对的！Miniatur AI 永远完全免费使用，没有隐藏费用、无需注册，也没有水印。享受无限制的微缩转换，为您的所有创意项目提供专业级质量的AI结果，零成本。"
+        "title": "我的隐私安全吗？",
+        "description": "放心！你的恋爱MBTI测试答案和结果都经过加密保护，绝不会泄露给任何第三方。我们比你更在乎你的隐私。详情看隐私政策。"
+      },
+      {
+        "title": "能和对象一起测吗？",
+        "description": "强烈推荐！情侣一起做恋爱MBTI测试超有意思。你们可以对比人格类型，看看是互补型还是相似型，了解彼此的思维方式。说不定能解决很多你为什么这样的疑惑呢！"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "今天就用免费的 Miniatur AI 转换您的照片",
-    "description": "加入数千名使用我们免费人工智能创建惊人微缩摄影效果的创作者。立即开始您的免费微缩转换之旅，使用先进的AI技术 - 无需付费，无需注册！",
+    "title": "准备好认识真实的自己了吗？",
+    "description": "10万+人已经通过恋爱MBTI测试找到了答案。现在轮到你了！完全免费，无需注册，3分钟揭秘你的恋爱性格。别让不了解自己，成为你幸福的绊脚石。",
     "buttons": [
       {
-        "title": "免费开始",
-        "icon": "RiGiftLine",
-        "url": "/#generator",
+        "title": "立即免费测试",
+        "icon": "RiHeartLine",
+        "url": "/quiz",
         "target": "_self",
         "variant": "default"
       }
@@ -349,62 +257,48 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "Miniatur AI",
-      "description": "Miniatur AI 使用先进的人工智能技术将普通照片转换为非凡的微缩杰作。使用我们革命性的AI平台在几秒钟内创建专业的移轴效果、立体模型场景和收藏风格微缩作品。",
+      "title": "恋爱MBTI",
+      "description": "通过科学的MBTI性格测试，帮助你了解自己的恋爱性格，找到最匹配的伴侣，建立更健康的感情关系。",
       "logo": {
         "src": "/logo.png",
-        "alt": "Miniatur AI"
+        "alt": "恋爱MBTI"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • Miniatur AI. 版权所有。",
+    "copyright": "© 2025 • 恋爱MBTI. All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "关于",
+          "title": "关于我们",
           "url": "/about"
         },
         {
-          "title": "资源",
-          "url": "/#features"
+          "title": "博客",
+          "url": "/posts"
         },
         {
-          "title": "朋友",
-          "url": "/#usage"
+          "title": "16种类型",
+          "url": "/types"
         }
       ]
     },
     "social": {
       "items": [
         {
-          "title": "X",
+          "title": "X (Twitter)",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/miniaturaiapp",
+          "url": "https://x.com/lovembti",
           "target": "_blank"
         },
         {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/miniaturaiapp",
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/lovembti",
           "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/miniaturaiapp",
-          "target": "_blank"
-        },
-        {
-          "title": "邮箱",
-          "icon": "RiMailLine",
-          "url": "mailto:support@miniaturaiapp.com",
-          "target": "_self"
         }
       ]
     },
-    "badges": [
-      
-    ],
+    "badges": [],
     "agreement": {
       "items": [
         {

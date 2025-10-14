@@ -169,69 +169,18 @@ export default function MiniaturaAIHero({ hero }: { hero: MiniaturaAIHeroType })
 
           {/* 下方左图右内容布局 */}
           {hero.layout === "left-image-right-content" ? (
-            <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-8 items-center">
-              {/* 左侧图片区域 */}
-              <div className="order-2 lg:order-1">
-                {hero.images && hero.images.length > 0 ? (
-                  <div className="relative w-full">
-                    <Card className="overflow-hidden shadow-lg">
-                      <CardContent className="p-0">
-                        <div className="relative aspect-[16/10] w-full bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
-                          <img
-                            src={hero.images[currentImageIndex]?.src}
-                            alt={hero.images[currentImageIndex]?.alt}
-                            className="w-full h-full object-cover"
-                            onError={(e) => {
-                              // 如果图片加载失败，显示占位符
-                              (e.target as HTMLImageElement).src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjMgZjQgZjYiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSIjOWNhM2FmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+TWluaWF0dXIgQUkgRXhhbXBsZTwvdGV4dD48L3N2Zz4=";
-                            }}
-                          />
-                          {hero.images[currentImageIndex]?.title && (
-                            <div className="absolute bottom-4 left-4 bg-black/70 text-white px-3 py-1 rounded-md text-sm">
-                              {hero.images[currentImageIndex].title}
-                            </div>
-                          )}
-                        </div>
-                      </CardContent>
-                    </Card>
-                    
-                    {/* 轮播指示器 */}
-                    {hero.enable_carousel && hero.images.length > 1 && (
-                      <div className="flex justify-center gap-2 mt-4">
-                        {hero.images.map((_, index) => (
-                          <button
-                            key={index}
-                            className={`w-2 h-2 rounded-full transition-colors ${
-                              index === currentImageIndex ? 'bg-primary' : 'bg-gray-300'
-                            }`}
-                            onClick={() => setCurrentImageIndex(index)}
-                          />
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ) : (
-                  <Card className="aspect-[16/10] flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
-                    <div className="text-center">
-                      <Icon name="RiImageLine" className="mx-auto mb-4 text-4xl text-gray-400" />
-                      <p className="text-gray-500">Miniatur AI Examples</p>
-                      <p className="text-sm text-gray-400 mt-1">Coming Soon</p>
-                    </div>
-                  </Card>
-                )}
-              </div>
-
-              {/* 右侧系统介绍区域 */}
-              <div className="order-1 lg:order-2 flex flex-col justify-center h-full">
+            <div className="max-w-4xl mx-auto">
+              {/* 居中内容区域 */}
+              <div className="flex flex-col items-center text-center">
                 {/* 描述文字 */}
                 <p
-                  className="text-base lg:text-lg xl:text-xl text-muted-foreground mb-8 leading-relaxed lg:text-left text-center"
+                  className="text-base lg:text-lg xl:text-xl text-muted-foreground mb-8 leading-relaxed max-w-3xl"
                   dangerouslySetInnerHTML={{ __html: hero.description || "" }}
                 />
 
                 {/* 主要按钮 */}
                 {hero.buttons && (
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                     {hero.buttons.map((item, i) => (
                       <Link
                         key={i}
@@ -254,10 +203,10 @@ export default function MiniaturaAIHero({ hero }: { hero: MiniaturaAIHeroType })
 
                 {/* 统计数据 */}
                 {hero.stats && (
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div className="flex justify-between items-center w-full max-w-3xl gap-8">
                     {hero.stats.map((stat, index) => (
-                      <div key={index} className="text-center lg:text-left">
-                        <div className="flex items-center justify-center lg:justify-start mb-2">
+                      <div key={index} className="text-center flex-1">
+                        <div className="flex items-center justify-center mb-2">
                           <Icon name={stat.icon} className="mr-2 text-primary text-xl" />
                           <span className="text-3xl font-bold text-primary">
                             {stat.value}

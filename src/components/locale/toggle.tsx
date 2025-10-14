@@ -17,37 +17,18 @@ export default function ({ isIcon = false }: { isIcon?: boolean }) {
   const router = useRouter();
   const pathname = usePathname();
   
-  // 获取当前语言，如果没有locale参数则说明是默认语言（英文）
-  const locale = (params.locale as string) || "en";
+  // 获取当前语言，默认为日文
+  const locale = (params.locale as string) || "ja";
 
   const handleSwitchLanguage = (value: string) => {
     if (value !== locale) {
-      let newPath = '';
-      
-      if (value === 'en') {
-        // 英文是默认语言，不需要前缀
-        if (pathname === '/zh' || pathname === '/pt') {
-          newPath = '/';
-        } else {
-          newPath = pathname.replace(/^\/(zh|pt)/, '') || '/';
-        }
-      } else {
-        // 其他语言需要前缀
-        if (pathname === '/' || !pathname.startsWith('/')) {
-          newPath = `/${value}`;
-        } else if (pathname.startsWith('/zh') || pathname.startsWith('/pt')) {
-          newPath = pathname.replace(/^\/(zh|pt)/, `/${value}`);
-        } else {
-          newPath = `/${value}${pathname}`;
-        }
-      }
-      
-      window.location.href = newPath;
+      // 使用 next-intl 的 router 进行导航
+      router.push(pathname, { locale: value });
     }
   };
 
   return (
-    <Select value={locale || "en"} onValueChange={handleSwitchLanguage}>
+    <Select value={locale || "ja"} onValueChange={handleSwitchLanguage}>
       <SelectTrigger className="flex items-center gap-2 border-none text-muted-foreground outline-hidden hover:bg-transparent focus:ring-0 focus:ring-offset-0">
         <MdLanguage className="text-xl" />
         {!isIcon && (

@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "Miniatur AI",
+      "title": "MBTI Cinta",
       "logo": {
         "src": "/logo.png",
-        "alt": "Miniatur AI"
+        "alt": "Ujian MBTI Cinta"
       },
       "url": "/"
     },
@@ -16,6 +16,16 @@
           "title": "Laman Utama",
           "url": "/",
           "icon": "RiHomeLine"
+        },
+        {
+          "title": "Mula Ujian",
+          "url": "/quiz",
+          "icon": "RiHeartLine"
+        },
+        {
+          "title": "16 Jenis",
+          "url": "/types",
+          "icon": "RiGroupLine"
         }
       ]
     },
@@ -25,145 +35,109 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Tukar Foto Menjadi Karya Miniatur dengan Miniatur AI",
-    "highlight_text": "Miniatur AI",
-    "description": "Tukar foto biasa menjadi dunia miniatur yang luar biasa dengan kesan tilt-shift menakjubkan dan diorama memikat. Teknologi Miniatur AI canggih kami menganalisis setiap piksel untuk mencipta kesan kedalaman bidang autentik yang menyaingi lensa kamera mahal. Hanya muat naik foto anda dan lihat kecerdasan buatan mencipta karya miniatur profesional dalam beberapa saat, sempurna untuk media sosial, portfolio, dan projek kreatif.",
+    "title": "Ujian MBTI Cinta Percuma -\n Temui Personaliti Cinta Sebenar Anda",
+    "highlight_text": "MBTI Cinta",
+    "description": "Mengapa anda sentiasa bertemu orang yang salah? Mengapa hubungan tidak bertahan? Jawapannya terletak pada personaliti cinta anda! Melalui ujian personaliti MBTI Cinta, dedahkan corak romantik sebenar anda dalam 3 minit dan temui pasangan jiwa anda. Lebih 100,000 pengguna telah menemui jawapan mereka. Percuma sepenuhnya.",
     "announcement": {
       "label": "100% PERCUMA",
-      "title": "TANPA PERLU LOG MASUK",
-      "url": "/#features"
+      "title": "TIADA PENDAFTARAN",
+      "url": "/quiz"
     },
-   
     "images": [
       {
         "src": "/imgs/features/1.png",
-        "alt": "Contoh Transformasi Miniatur AI 1",
-        "title": "Foto Asal kepada Miniatur"
+        "alt": "Contoh Ujian MBTI Cinta",
+        "title": "Personaliti Cinta Anda"
       },
       {
         "src": "/imgs/features/2.png",
-        "alt": "Contoh Transformasi Miniatur AI 2", 
-        "title": "Penjanaan Figur AI"
+        "alt": "Analisis Personaliti Cinta",
+        "title": "Ujian Keserasian"
       }
     ],
     "layout": "left-image-right-content",
     "enable_carousel": true,
     "buttons": [
       {
-        "title": "Mula Cipta Tanpa Log Masuk",
-        "icon": "RiMagicLine",
-        "url": "/#generator",
+        "title": "Mula Ujian Percuma",
+        "icon": "RiHeartLine",
+        "url": "/quiz",
         "target": "_self",
         "variant": "default"
       }
     ],
     "stats": [
       {
-        "value": "12,847+",
-        "label": "Pengguna Miniatur AI Dipercayai",
+        "value": "100,000+",
+        "label": "Pengguna Ujian",
         "icon": "RiUserLine"
       },
       {
-        "value": "89,432+",
-        "label": "Imej Miniatur Dijana",
-        "icon": "RiImageLine"
+        "value": "16",
+        "label": "Jenis Personaliti",
+        "icon": "RiHeartLine"
+      },
+      {
+        "value": "95%",
+        "label": "Kepuasan",
+        "icon": "RiStarLine"
       }
     ],
     "show_happy_users": true,
     "show_badge": true
   },
-  "branding": {
-    "title": "Dikuasakan oleh teknologi AI canggih",
-    "items": [
-      {
-        "title": "OpenAI",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "OpenAI"
-        }
-      },
-      {
-        "title": "Penglihatan Komputer",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "Penglihatan Komputer"
-        }
-      },
-      {
-        "title": "Rangkaian Neural",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "Rangkaian Neural"
-        }
-      },
-      {
-        "title": "Pembelajaran Mesin",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Pembelajaran Mesin"
-        }
-      },
-      {
-        "title": "Pemprosesan Awan",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Pemprosesan Awan"
-        }
-      }
-    ]
-  },
   "introduce": {
     "name": "introduce",
-    "title": "Apa itu Miniatur AI",
-    "label": "Pengenalan",
-    "description": "Miniatur AI adalah platform kecerdasan buatan percuma yang revolusioner yang mengubah fotografi biasa menjadi karya miniatur yang menakjubkan. Menggunakan algoritma penglihatan komputer dan pembelajaran mesin yang canggih, alat pintar kami menganalisis komposisi imej, kedalaman, dan pencahayaan untuk mencipta kesan tilt-shift profesional dan adegan diorama yang realistik dalam beberapa saat. Sama ada anda jurugambar profesional, pencipta kandungan, atau hobbyist, Miniatur AI memberikan transformasi miniatur berkualiti muzium dengan ketepatan dan kelajuan yang tiada tandingan.",
+    "title": "Apakah Ujian Personaliti MBTI Cinta?",
+    "label": "Tentang Ujian",
+    "description": "MBTI Cinta bukan sekadar ujian personaliti biasa—ia adalah kunci anda untuk membuka hubungan yang bahagia. Berdasarkan teori jenis personaliti MBTI klasik, dioptimumkan khas untuk senario romantik, ia membantu anda melihat diri sebenar dalam hubungan—personaliti cinta anda, keperluan emosi, gaya komunikasi, dan bahkan titik buta yang tidak pernah anda tahu wujud.",
     "image": {
       "src": "/imgs/features/3.png"
     },
     "items": [
       {
-        "title": "Analisis Pintar Berkuasa AI",
-        "description": "Sistem kecerdasan buatan kami dengan bijak mengenal pasti titik fokus, lapisan kedalaman, dan hubungan spatial dalam foto anda untuk mencipta kesan miniatur asli dengan gradien kabur yang sempurna dan simulasi kedalaman bidang profesional yang sepadan dengan teknik fotografi tilt-shift sebenar.",
-        "icon": "RiRobot2Line"
+        "title": "Analisis Personaliti Saintifik dan Tepat",
+        "description": "MBTI Cinta berdasarkan 16 jenis personaliti yang disahkan oleh psikologi. Melalui empat dimensi (Extroversion/Introversion, Sensing/Intuition, Thinking/Feeling, Judging/Perceiving), ia menangkap personaliti cinta anda dengan tepat. Bukan ramalan—ia ujian psikologi saintifik!",
+        "icon": "RiMicroscopeLine"
       },
       {
-        "title": "Pelbagai Gaya Miniatur",
-        "description": "Pilih dari fotografi tilt-shift, kesan diorama mainan, model miniatur seni bina, dan gaya figur koleksi. Setiap preset yang dioptimumkan AI menyampaikan ciri miniatur unik yang disesuaikan untuk komposisi foto dan visi kreatif yang berbeza.",
-        "icon": "RiPaletteLine"
+        "title": "Fahami Corak Cinta Anda",
+        "description": "Mengapa anda sentiasa tertarik kepada jenis orang yang sama? Mengapa hubungan sentiasa bermasalah di tempat yang serupa? Ujian personaliti MBTI Cinta akan memberi anda jawapan, membantu anda melihat kod personaliti cinta anda dan mengelak mengulangi kesilapan.",
+        "icon": "RiHeartLine"
       },
       {
-        "title": "Pemprosesan AI Segera",
-        "description": "Pemprosesan kecerdasan buatan berasaskan awan yang canggih memberikan kesan miniatur profesional dalam masa kurang dari 10 saat. Tiada keperluan pemasangan perisian kompleks, bayaran, atau kepakaran teknikal untuk mencipta hasil yang menakjubkan.",
-        "icon": "RiTimeLine"
+        "title": "Temui Pasangan Sempurna Anda",
+        "description": "Melalui ujian keserasian MBTI Cinta, anda akan tahu jenis personaliti mana yang paling memahami anda dan paling sesuai dengan anda. Tiada lagi dating buta—cari dengan tujuan pasangan jiwa yang benar-benar serasi.",
+        "icon": "RiUserHeartLine"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Mengapa Pilih Miniatur AI",
-    "label": "Faedah",
-    "description": "Jurugambar profesional dan pencipta kandungan di seluruh dunia mempercayai Miniatur AI untuk analisis imej yang unggul, kesan miniatur yang asli, dan pemprosesan AI yang sepantas kilat. Sistem kecerdasan buatan kami memahami prinsip fotografi untuk memberikan hasil yang menyaingi peralatan kamera mahal dan berjam-jam kerja editing manual.",
+    "title": "Mengapa Lebih 100,000 Orang Memilih Ujian MBTI Cinta Kami?",
+    "label": "Kelebihan Ujian",
+    "description": "Dengan begitu banyak ujian personaliti tersedia, mengapa semua orang memilih kami? Kerana kami pakar dalam cinta dan memahami hati anda. Ujian psikologi MBTI Cinta kami diperhalusi oleh pasukan psikologi profesional dan dioptimumkan dengan data lebih 100,000 pengguna sebenar, memberi anda analisis personaliti cinta yang paling tepat dan ikhlas.",
     "items": [
       {
-        "title": "Hasil Miniatur Berkualiti Profesional",
-        "description": "Miniatur AI menghasilkan kesan miniatur berkualiti muzium yang mengekalkan kedalaman bidang yang betul, corak kabur yang realistik, dan ciri tilt-shift autentik yang terdapat dalam fotografi miniatur profesional. AI kami memastikan setiap transformasi memenuhi piawaian industri.",
-        "icon": "RiStarLine",
+        "title": "Akhirnya Memahami Diri Sendiri",
+        "description": "\"Jadi inilah saya!\" Ini yang paling kerap dikatakan pengguna. Melalui ujian MBTI Cinta, anda akan mendapat pencerahan: mengapa anda bertindak balas dengan cara tertentu dalam hubungan, mengapa anda sentiasa tertarik kepada jenis tertentu. Memahami jenis personaliti anda adalah langkah pertama untuk cinta yang bahagia.",
+        "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/features/4.png"
         }
       },
       {
-        "title": "Pengecaman Adegan Pintar",
-        "description": "AI canggih kami menganalisis elemen seni bina, landskap, manusia, dan objek untuk secara automatik menggunakan kesan miniatur yang paling sesuai untuk kandungan foto dan komposisi spesifik anda. Kecerdasan buatan pintar menyesuaikan dengan mana-mana jenis adegan.",
-        "icon": "RiBrainLine",
+        "title": "Tiada Lagi Orang Yang Salah",
+        "description": "MBTI Cinta memberitahu dengan jelas: jenis personaliti mana yang serasi secara semula jadi dengan anda, mana yang perlu usaha, mana yang perlu dielakkan. Dengan \"peta cinta\" ini, anda boleh mengelakkan banyak jalan memutar dan melabur masa dan emosi anda pada orang yang betul.",
+        "icon": "RiPieChartLine",
         "image": {
           "src": "/imgs/features/6.png"
         }
       },
       {
-        "title": "Alur Kerja Miniatur Mudah",
-        "description": "Langkau perisian editing foto yang kompleks dan peralatan mahal. Miniatur AI mengubah foto anda menjadi hasil miniatur profesional dengan hanya satu klik, menjimatkan berjam-jam kerja manual sambil memberikan hasil berkualiti tinggi yang konsisten.",
-        "icon": "RiSpeedLine",
+        "title": "Belajar Mencintai Dengan Baik",
+        "description": "Keputusan ujian bukan sahaja memberitahu anda \"jenis personaliti anda\"—lebih penting, ia mengajar anda \"apa yang perlu dilakukan\". Berdasarkan personaliti cinta anda, kami memberikan nasihat yang sangat praktikal: bagaimana berkomunikasi dengan lebih berkesan, bagaimana menyelesaikan konflik, bagaimana menjaga hubungan segar. Ini adalah rahsia cinta yang boleh anda gunakan dengan segera!",
+        "icon": "RiLightbulbLine",
         "image": {
           "src": "/imgs/features/7.png"
         }
@@ -172,8 +146,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "Cara Mencipta Miniatur dengan Miniatur AI",
-    "description": "Ubah foto anda menjadi karya miniatur yang menakjubkan dalam empat langkah mudah. Sistem Miniatur AI kami mengendalikan semua analisis imej dan pemprosesan yang kompleks secara automatik, memberikan hasil miniatur profesional setiap kali dengan ketepatan kecerdasan buatan.",
+    "title": "Bagaimana Mengambil Ujian MBTI Cinta? 3 Langkah Mudah",
+    "description": "Tiada operasi yang rumit, tiada borang yang panjang. Hanya 3 langkah, 5 minit, dan anda akan mendapat laporan analisis personaliti cinta peribadi anda. Ujian psikologi ini percuma sepenuhnya dan boleh dimulakan bila-bila masa!",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -181,166 +155,100 @@
     "text_align": "center",
     "items": [
       {
-        "title": "Muat Naik Foto Anda",
-        "description": "Hanya seret dan lepas mana-mana imej JPEG atau PNG sehingga 10MB. Miniatur AI menerima foto landskap, seni bina, manusia, dan objek untuk transformasi miniatur. AI kami berfungsi terbaik dengan imej resolusi tinggi.",
-        "icon": "RiUploadLine"
+        "title": "Jawab Soalan Secara Intuitif",
+        "description": "20-30 soalan pilihan berganda tentang cinta dan personaliti—semua sangat mudah. Ingat: ikut gerak hati pertama anda, jangan terlalu fikir! Semakin jujur jawapan anda, semakin tepat keputusan ujian personaliti MBTI Cinta anda.",
+        "icon": "RiQuestionnaireLine"
       },
       {
-        "title": "Pilih Gaya Miniatur",
-        "description": "Pilih dari preset yang dioptimumkan AI kami: fotografi tilt-shift, diorama mainan, model miniatur seni bina, atau gaya figur koleksi. Setiap preset disetel halus oleh kecerdasan buatan untuk jenis foto dan komposisi yang berbeza.",
+        "title": "Analisis Pintar AI",
+        "description": "Sebaik sahaja anda klik hantar, sistem mula menganalisis jawapan anda. Melalui empat dimensi teori MBTI, ia mengira jenis personaliti cinta anda dalam beberapa saat. Sangat berteknologi tinggi!",
         "icon": "RiSettings3Line"
       },
       {
-        "title": "Keajaiban Pemprosesan AI",
-        "description": "Miniatur AI kami menganalisis maklumat kedalaman, menggunakan kesan kabur pintar, dan mencipta ciri miniatur yang asli. Algoritma kecerdasan buatan canggih memastikan hasil berkualiti profesional dalam beberapa saat.",
-        "icon": "RiMagicLine"
-      },
-      {
-        "title": "Muat Turun & Kongsi",
-        "description": "Simpan ciptaan miniatur anda dalam resolusi tinggi. Sempurna untuk media sosial, portfolio, atau percetakan. Kongsi seni miniatur unik yang dijana AI dengan dunia dan tunjukkan hasil transformasi profesional.",
-        "icon": "RiDownloadLine"
+        "title": "Dapatkan Laporan Eksklusif Anda",
+        "description": "Jenis MBTI Cinta anda, analisis personaliti terperinci, kekuatan cinta, perkara yang perlu diperhatikan, padanan terbaik... semuanya dalam laporan ini! Anda juga boleh berkongsinya dengan rakan atau orang yang anda minati untuk membincangkan topik personaliti bersama.",
+        "icon": "RiFileTextLine"
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Ciri-ciri Miniatur AI Canggih",
-    "description": "Temui keupayaan kecerdasan buatan yang berkuasa yang menjadikan penjana miniatur kami alat AI paling canggih yang tersedia untuk transformasi foto dan projek editing kreatif.",
+    "title": "Apa Yang Boleh Ujian MBTI Cinta Beritahu Anda?",
+    "description": "Bukan sekadar label personaliti yang mudah—ujian psikologi MBTI Cinta kami menyediakan analisis personaliti cinta yang komprehensif, membantu anda benar-benar memahami diri sendiri dan cinta.",
     "items": [
       {
-        "title": "Pengesanan Kedalaman Pintar",
-        "description": "Miniatur AI menggunakan penglihatan komputer untuk menganalisis kedalaman imej dan secara automatik mencipta satah fokus yang realistik, memastikan kesan miniatur tilt-shift yang asli dengan ketepatan kedalaman bidang profesional.",
-        "icon": "RiEyeLine"
+        "title": "16 Jenis Personaliti Cinta",
+        "description": "Dari extrovert ke introvert, dari emosional ke rasional, 16 jenis personaliti masing-masing mempunyai daya tarikan sendiri. Setiap jenis MBTI Cinta mempunyai tarikan unik dan gaya cinta—temui milik anda!",
+        "icon": "RiUserLine"
       },
       {
-        "title": "Pengoptimuman Gaya AI",
-        "description": "Algoritma pembelajaran mesin kami secara automatik menyesuaikan intensiti kabur, kedalaman bidang, dan ketepuan warna berdasarkan kandungan dan komposisi foto anda untuk hasil miniatur yang optimum.",
-        "icon": "RiSettings2Line"
+        "title": "Ujian Padanan Keserasian",
+        "description": "Semak skor keserasian anda dengan semua jenis MBTI. Mana yang padanan sempurna, mana yang perlu usaha, mana yang perlu dielakkan—sangat jelas!",
+        "icon": "RiHeartLine"
       },
       {
-        "title": "Pemprosesan Kelompok",
-        "description": "Muat naik beberapa foto dan gunakan kesan Miniatur AI yang konsisten merentasi keseluruhan koleksi anda. Sempurna untuk mencipta siri fotografi miniatur yang kohesif dengan pemprosesan kecerdasan buatan yang seragam.",
-        "icon": "RiStackLine"
+        "title": "Gaya Cinta Anda",
+        "description": "Adakah anda proaktif atau pasif? Adakah anda lebih suka kejutan romantik atau kehangatan yang tenang? MBTI Cinta menganalisis secara mendalam kaedah ekspresi emosi dan tabiat komunikasi anda.",
+        "icon": "RiEmotionLine"
       },
       {
-        "title": "Output Resolusi Tinggi",
-        "description": "Jana imej miniatur sehingga resolusi 4K sambil mengekalkan butiran yang tajam dan peralihan kabur yang lancar. Pemprosesan AI berkualiti profesional untuk sebarang kes penggunaan komersial atau kreatif.",
-        "icon": "RiHdLine"
+        "title": "Kekuatan dan Perangkap",
+        "description": "Apakah senjata rahsia anda dalam cinta? Apakah periuk api berpotensi anda? Kenali diri sendiri dan kenali pasangan anda—menang setiap pertempuran!",
+        "icon": "RiLineChartLine"
       },
       {
-        "title": "Pratonton Masa Nyata",
-        "description": "Lihat transformasi miniatur anda serta-merta semasa anda menyesuaikan tetapan. Miniatur AI menyediakan maklum balas segera untuk hasil yang sempurna setiap kali dengan pemprosesan kecerdasan buatan secara langsung.",
-        "icon": "RiLiveLine"
+        "title": "Analisis Keserasian Pasangan",
+        "description": "Sudah ada pasangan? Ambil ujian bersama! Lihat sama ada personaliti cinta anda saling melengkapi atau mencerminkan, di mana konflik mungkin timbul, dan bagaimana untuk bergaul dengan lebih baik.",
+        "icon": "RiUserHeartLine"
       },
       {
-        "title": "Eksport & Perkongsian Mudah",
-        "description": "Muat turun ciptaan miniatur anda dalam pelbagai format atau kongsi terus ke platform media sosial. Tunjukkan seni miniatur yang dijana AI anda dengan mudah bersama hasil yang profesional.",
+        "title": "Kongsi di Media Sosial",
+        "description": "Tukar keputusan MBTI Cinta anda menjadi kad cantik dan pos di media sosial. Mungkin pasangan jiwa anda sedang menunggu untuk melihatnya!",
         "icon": "RiShareLine"
-      }
-    ]
-  },
-  "stats": {
-    "name": "stats",
-    "label": "Statistik",
-    "title": "Pencipta Mempercayai Miniatur AI",
-    "description": "untuk kesan miniatur berkualiti profesional dan pemprosesan AI secepat kilat di seluruh dunia.",
-    "icon": "RiHeartLine",
-    "items": [
-      {
-        "title": "Pengguna Dipercayai",
-        "label": "12,847+",
-        "description": "Pencipta"
-      },
-      {
-        "title": "Imej Dijana",
-        "label": "89,432+",
-        "description": "Miniatur"
-      },
-      {
-        "title": "Kelajuan Pemprosesan",
-        "label": "<10",
-        "description": "Saat"
-      }
-    ]
-  },
-  "testimonial": {
-    "name": "testimonial",
-    "label": "Testimoni",
-    "title": "Apa Kata Pencipta Tentang Miniatur AI",
-    "description": "Maklum balas sebenar dari jurugambar dan artis yang menggunakan Miniatur AI untuk projek kreatif dan transformasi miniatur profesional mereka.",
-    "icon": "RiThumbUpLine",
-    "items": [
-      {
-        "title": "Sarah Mitchell",
-        "label": "Jurugambar Profesional",
-        "description": "Miniatur AI memberikan hasil yang menyaingi lensa tilt-shift mahal saya. Kecerdasan buatan ini memahami kedalaman lebih baik daripada mana-mana perisian editing yang pernah saya gunakan untuk fotografi miniatur.",
-        "image": {
-          "src": "/imgs/users/1.png"
-        }
-      },
-      {
-        "title": "James Rodriguez",
-        "label": "Pencipta Kandungan",
-        "description": "AI ini luar biasa! Saya mencipta kandungan gaya miniatur untuk Instagram dalam beberapa saat. Engagement saya meningkat 300% sejak menggunakan Miniatur AI untuk penciptaan kandungan media sosial.",
-        "image": {
-          "src": "/imgs/users/2.png"
-        }
-      },
-      {
-        "title": "Emily Chen",
-        "label": "Artis Digital",
-        "description": "Kesan miniatur sangat realistik. Miniatur AI menjimatkan berjam-jam editing manual sambil menghasilkan hasil berkualiti profesional setiap kali dengan pemprosesan kecerdasan buatan canggih.",
-        "image": {
-          "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "Michael Thompson",
-        "label": "Blogger Pelancongan",
-        "description": "Saya menggunakan Miniatur AI untuk semua foto perjalanan saya sekarang. Kesan miniatur menjadikan adegan biasa kelihatan seperti dunia kecil yang ajaib dengan kualiti transformasi AI profesional.",
-        "image": {
-          "src": "/imgs/users/6.png"
-        }
       }
     ]
   },
   "faq": {
     "name": "faq",
     "label": "Soalan Lazim",
-    "title": "Soalan Lazim Tentang Miniatur AI",
-    "description": "Ada soalan tentang penjana miniatur AI kami? Cari jawapan di sini atau hubungi pasukan sokongan kami untuk bantuan dengan transformasi foto miniatur.",
+    "title": "Soalan Lazim MBTI Cinta",
+    "description": "Semua yang anda ingin tahu tentang ujian personaliti MBTI Cinta ada di sini.",
     "items": [
       {
-        "title": "Bagaimana Miniatur AI mencipta kesan miniatur?",
-        "description": "Miniatur AI menggunakan algoritma penglihatan komputer dan pembelajaran mesin yang canggih untuk menganalisis kedalaman imej, mengenal pasti titik fokus, dan menggunakan kesan tilt-shift yang asli. Kecerdasan buatan kami memahami prinsip fotografi untuk mencipta transformasi miniatur yang realistik yang menyaingi peralatan kamera profesional dan teknik editing manual."
+        "title": "Adakah ujian MBTI Cinta benar-benar percuma?",
+        "description": "100% percuma! Tiada bayaran, tiada pendaftaran, tiada maklumat peribadi diperlukan. Buka dan ujian dengan segera, selesai dan lihat keputusan terus. Ujian personaliti MBTI Cinta asas kami adalah percuma selamanya. Jika anda mahukan analisis keserasian pasangan yang lebih mendalam, anda boleh memilih versi premium berbayar."
       },
       {
-        "title": "Jenis foto apa yang paling sesuai dengan Miniatur AI?",
-        "description": "Miniatur AI berfungsi dengan sangat baik dengan landskap, seni bina, cityscapes, dan fotografi udara. Foto dengan kedalaman yang jelas dan subjek yang menarik menghasilkan kesan miniatur yang paling dramatik. Kecerdasan buatan kami secara automatik menyesuaikan dengan komposisi foto yang berbeza untuk hasil transformasi miniatur yang optimum."
+        "title": "Berapa lama ujian psikologi ini mengambil masa?",
+        "description": "Paling lama 5-10 minit! 20-30 soalan pilihan berganda, semua mudah dijawab. Anda boleh mengambilnya sambil minum kopi atau menunggu kereta api. Jeda bila-bila masa dan teruskan bila anda mahu."
       },
       {
-        "title": "Bolehkah saya menggunakan Miniatur AI secara komersial?",
-        "description": "Ya! Semua imej miniatur yang dicipta dengan Miniatur AI boleh digunakan untuk tujuan komersial termasuk pemasaran media sosial, kerja portfolio, dan projek klien. Anda mengekalkan hak penuh ke atas ciptaan miniatur yang dijana AI dan transformasi profesional anda."
+        "title": "Adakah ujian personaliti MBTI Cinta tepat?",
+        "description": "Cuba dan lihat! MBTI Cinta kami berdasarkan teori psikologi yang disahkan, dioptimumkan dengan data lebih 100,000 pengguna. 95% pengguna berkata \"Sangat tepat!\" Sudah tentu, jawapan jujur adalah kunci—menipu orang lain mudah, menipu diri sendiri tidak bermakna."
       },
       {
-        "title": "Format fail apa yang disokong oleh Miniatur AI?",
-        "description": "Miniatur AI menerima format imej JPEG, JPG, PNG, dan WebP sehingga 10MB saiz. Untuk hasil transformasi miniatur terbaik, kami mengesyorkan foto resolusi tinggi dengan pencahayaan yang baik dan kedalaman bidang yang jelas untuk pemprosesan AI yang optimum."
+        "title": "Bolehkah saya mengambilnya beberapa kali?",
+        "description": "Ambil sebanyak yang anda mahu! Walau bagaimanapun, jenis personaliti agak stabil, jadi keputusan tidak akan banyak berubah dalam jangka pendek. Cuba ambil semula selepas setengah tahun atau setahun untuk melihat pertumbuhan peribadi anda."
       },
       {
-        "title": "Adakah Miniatur AI benar-benar percuma untuk digunakan?",
-        "description": "Sudah tentu! Miniatur AI adalah percuma sepenuhnya untuk digunakan selamanya tanpa kos tersembunyi, tiada pendaftaran diperlukan, dan tiada watermark. Nikmati transformasi miniatur tanpa had dengan hasil AI berkualiti profesional tanpa sebarang kos untuk semua projek kreatif anda."
+        "title": "Adakah privasi saya selamat?",
+        "description": "Sudah tentu! Jawapan dan keputusan ujian MBTI Cinta anda disulitkan dan dilindungi, tidak pernah dibocorkan kepada mana-mana pihak ketiga. Kami lebih mengambil berat tentang privasi anda daripada anda. Lihat <a href='/privacy-policy'>Dasar Privasi</a> kami untuk butiran."
+      },
+      {
+        "title": "Bolehkah saya mengambilnya dengan pasangan saya?",
+        "description": "Sangat disyorkan! Pasangan mengambil ujian MBTI Cinta bersama sangat menarik. Anda boleh membandingkan jenis personaliti, lihat sama ada anda saling melengkapi atau serupa, memahami corak pemikiran satu sama lain. Ia mungkin menyelesaikan banyak soalan \"mengapa anda begini\"!"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Ubah Foto Anda dengan Miniatur AI Percuma Hari Ini",
-    "description": "Sertai ribuan pencipta yang menggunakan kecerdasan buatan percuma kami untuk mencipta kesan fotografi miniatur yang menakjubkan. Mulakan perjalanan transformasi miniatur percuma anda sekarang dengan teknologi AI canggih - tanpa bayaran, tanpa pendaftaran diperlukan!",
+    "title": "Bersedia Untuk Mengenali Diri Sebenar Anda?",
+    "description": "Lebih 100,000 orang telah menemui jawapan melalui ujian MBTI Cinta. Kini giliran anda! Percuma sepenuhnya, tiada pendaftaran, 3 minit untuk mendedahkan personaliti cinta anda. Jangan biarkan tidak memahami diri sendiri menjadi penghalang kepada kebahagiaan anda.",
     "buttons": [
       {
-        "title": "Mula Percuma Sekarang",
-        "icon": "RiGiftLine",
-        "url": "/#generator",
+        "title": "Mula Ujian Percuma",
+        "icon": "RiHeartLine",
+        "url": "/quiz",
         "target": "_self",
         "variant": "default"
       }
@@ -349,62 +257,48 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "Miniatur AI",
-      "description": "Miniatur AI mengubah foto biasa menjadi karya miniatur yang luar biasa menggunakan teknologi kecerdasan buatan yang canggih. Cipta kesan tilt-shift profesional, adegan diorama, dan miniatur gaya koleksi dalam beberapa saat dengan platform AI revolusioner kami.",
+      "title": "MBTI Cinta",
+      "description": "Melalui ujian personaliti MBTI saintifik, bantu anda memahami personaliti cinta anda, temui pasangan terbaik anda, dan bina hubungan yang lebih sihat.",
       "logo": {
         "src": "/logo.png",
-        "alt": "Miniatur AI"
+        "alt": "MBTI Cinta"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • Miniatur AI. Hak cipta terpelihara.",
+    "copyright": "© 2025 • MBTI Cinta. Hak cipta terpelihara.",
     "nav": {
       "items": [
         {
-          "title": "Tentang",
+          "title": "Tentang Kami",
           "url": "/about"
         },
         {
-          "title": "Sumber",
-          "url": "/#features"
+          "title": "Blog",
+          "url": "/posts"
         },
         {
-          "title": "Rakan",
-          "url": "/#usage"
+          "title": "16 Jenis",
+          "url": "/types"
         }
       ]
     },
     "social": {
       "items": [
         {
-          "title": "X",
+          "title": "X (Twitter)",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/miniaturaiapp",
+          "url": "https://x.com/lovembti",
           "target": "_blank"
         },
         {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/miniaturaiapp",
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/lovembti",
           "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/miniaturaiapp",
-          "target": "_blank"
-        },
-        {
-          "title": "Email",
-          "icon": "RiMailLine",
-          "url": "mailto:support@miniaturaiapp.com",
-          "target": "_self"
         }
       ]
     },
-    "badges": [
-    
-    ],
+    "badges": [],
     "agreement": {
       "items": [
         {

@@ -17,15 +17,18 @@ export function getBaseUrl(): string {
 /**
  * 生成多语言canonical URL
  * 统一处理所有页面的canonical URL逻辑
+ * 注意：当 localePrefix = "as-needed" 时，默认语言（ja）不需要前缀
  */
 export function getCanonicalUrl(locale: string, path: string = '/'): string {
   const baseUrl = getBaseUrl();
   const cleanPath = path === '/' ? '' : path;
 
-  if (locale === 'en') {
+  // 日文是默认语言，不需要前缀
+  if (locale === 'ja') {
     return `${baseUrl}${cleanPath}/`;
   }
 
+  // 其他语言需要加语言前缀
   return `${baseUrl}/${locale}${cleanPath}/`;
 }
 

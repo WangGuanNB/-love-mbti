@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "title": "【今流行りの恋愛MBTI】16タイプ診断もうやった？無料で相性チェック | Love Type 16",
+    "description": "話題沸騰中！恋愛MBTIで16タイプから運命のパートナーを発見。科学的性格診断であなたの恋愛傾向・相性・理想の相手が3分でわかる。すでに100万人以上が診断完了、完全無料・登録不要で今すぐ診断スタート！",
+    "keywords": "恋愛MBTI, 今流行りのMBTI, 16タイプ診断, Love Type 16, 恋愛診断無料, 相性診断, MBTI恋愛版, 性格診断テスト, 恋愛タイプ診断, パートナー診断"
+  },
+  "user": {
+    "sign_in": "ログイン",
+    "sign_out": "ログアウト",
+    "credits": "クレジット",
+    "api_keys": "APIキー",
+    "my_orders": "注文履歴",
+    "user_center": "ユーザーセンター"
+  },
+  "sign_modal": {
+    "sign_in_title": "ログイン",
+    "sign_in_description": "アカウントにログイン",
+    "sign_up_title": "新規登録",
+    "sign_up_description": "アカウントを作成",
+    "email_title": "メールアドレス",
+    "email_placeholder": "メールアドレスを入力",
+    "password_title": "パスワード",
+    "password_placeholder": "パスワードを入力",
+    "forgot_password": "パスワードをお忘れですか？",
+    "or": "または",
+    "continue": "続ける",
+    "no_account": "アカウントをお持ちでない方",
+    "email_sign_in": "メールでログイン",
+    "google_sign_in": "Googleでログイン",
+    "github_sign_in": "GitHubでログイン",
+    "close_title": "閉じる",
+    "cancel_title": "キャンセル"
+  },
+  "my_orders": {
+    "title": "注文履歴",
+    "description": "あなたの注文一覧",
+    "no_orders": "注文がありません",
+    "tip": "",
+    "activate_order": "注文を有効化",
+    "actived": "有効化済み",
+    "join_discord": "Discordに参加",
+    "read_docs": "ドキュメントを読む",
+    "table": {
+      "order_no": "注文番号",
+      "email": "メール",
+      "product_name": "商品名",
+      "amount": "金額",
+      "paid_at": "支払日時",
+      "github_username": "GitHubユーザー名",
+      "status": "ステータス"
+    }
+  },
+  "my_credits": {
+    "title": "マイクレジット",
+    "left_tip": "残りクレジット: {left_credits}",
+    "no_credits": "クレジット記録がありません",
+    "recharge": "チャージ",
+    "table": {
+      "trans_no": "取引番号",
+      "trans_type": "取引タイプ",
+      "credits": "クレジット",
+      "updated_at": "更新日時",
+      "status": "ステータス"
+    }
+  },
+  "api_keys": {
+    "title": "APIキー",
+    "tip": "APIキーは安全に保管してください",
+    "no_api_keys": "APIキーがありません",
+    "create_api_key": "APIキーを作成",
+    "table": {
+      "name": "名前",
+      "key": "キー",
+      "created_at": "作成日時"
+    },
+    "form": {
+      "name": "名前",
+      "name_placeholder": "APIキー名",
+      "submit": "送信"
+    }
+  },
+  "blog": {
+    "title": "ブログ",
+    "description": "ニュース、リソース、最新情報",
+    "read_more_text": "続きを読む",
+    "tools_notice": {
+      "text": "実用的なツールをお探しですか？これらのチュートリアルに加えて、",
+      "link_text": "メインホームページ",
+      "suffix": "で完全なツールスイートをご利用いただけます。"
+    }
+  },
+  "my_invites": {
+    "title": "招待履歴",
+    "description": "あなたの招待記録を確認",
+    "no_invites": "招待記録がありません",
+    "my_invite_link": "マイ招待リンク",
+    "edit_invite_link": "招待リンクを編集",
+    "copy_invite_link": "招待リンクをコピー",
+    "invite_code": "招待コード",
+    "invite_tip": "友達を1人招待すると$50の報酬",
+    "invite_balance": "招待報酬残高",
+    "total_invite_count": "総招待数",
+    "total_paid_count": "有料転換数",
+    "total_award_amount": "総報酬額",
+    "update_invite_code": "招待コードを設定",
+    "update_invite_code_tip": "カスタム招待コードを入力",
+    "update_invite_button": "保存",
+    "no_orders": "購入前は招待できません",
+    "no_affiliates": "招待権限がありません。お問い合わせください。",
+    "table": {
+      "invite_time": "招待日時",
+      "invite_user": "招待ユーザー",
+      "status": "ステータス",
+      "reward_percent": "報酬率",
+      "reward_amount": "報酬額",
+      "pending": "保留中",
+      "completed": "完了"
+    }
+  },
+  "feedback": {
+    "title": "フィードバック",
+    "description": "ご意見・ご感想をお聞かせください",
+    "submit": "送信",
+    "loading": "送信中...",
+    "contact_tip": "その他のお問い合わせ方法",
+    "rating_tip": "サービスの評価をお願いします",
+    "placeholder": "ご意見をご記入ください..."
+  },
+  "share": {
+    "title": "この画像をシェア",
+    "text": "無料で恋愛MBTI診断を受けました！あなたもやってみませんか？",
+    "preparing": "シェア準備中...",
+    "success": "リンクをコピーしました！",
+    "failed": "コピーに失敗しました",
+    "uploading": "画像を準備中...",
+    "platforms": {
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "pinterest": "Pinterest",
+      "whatsapp": "WhatsApp",
+      "telegram": "Telegram",
+      "reddit": "Reddit",
+      "copy": "コピー"
+    }
+  },
+  "payment": {
+    "modal": {
+      "title": "プランを選択",
+      "description": "アップグレードして機能をアンロック",
+      "most_popular": "人気No.1",
+      "credits": "クレジット",
+      "month": "月",
+      "year": "年",
+      "processing": "処理中...",
+      "select_plan": "このプランを選択",
+      "international_payment": "国際決済",
+      "china_payment": "Alipay/WeChat Pay",
+      "stripe_payment": "Stripe決済",
+      "creem_payment": "Creem決済"
+    },
+    "test": {
+      "basic": {
+        "title": "ベーシックプラン",
+        "description": "100クレジット",
+        "feature1": "100回のAI生成",
+        "feature2": "標準速度",
+        "feature3": "メールサポート"
+      },
+      "pro": {
+        "title": "プロフェッショナルプラン",
+        "description": "500クレジット",
+        "feature1": "500回のAI生成",
+        "feature2": "優先速度",
+        "feature3": "24/7技術サポート",
+        "feature4": "HD出力"
+      },
+      "enterprise": {
+        "title": "エンタープライズプラン",
+        "description": "2000クレジット",
+        "feature1": "2000回のAI生成",
+        "feature2": "最速処理",
+        "feature3": "専属サポート",
+        "feature4": "APIアクセス",
+        "feature5": "バッチ処理"
+      },
+      "test_title": "決済モーダルテスト",
+      "open_default": "決済モーダルを開く（デフォルト設定）",
+      "open_custom": "決済モーダルを開く（カスタム設定）",
+      "default_description": "翻訳されたタイトルと説明を使用",
+      "custom_description": "クレジット不足シナリオをシミュレート",
+      "instructions_title": "テスト手順",
+      "instruction1": "デスクトップではDialogモーダルとして表示",
+      "instruction2": "モバイルではDrawerとして表示",
+      "instruction3": "多言語切り替えに対応",
+      "instruction4": "国際決済と中国決済オプションを含む",
+      "instruction5": "決済にはログインが必要",
+      "success_message": "決済成功！クレジットが追加されました",
+      "insufficient_title": "クレジット不足",
+      "insufficient_description": "クレジットが不足しています。アップグレードしてご利用を続けてください",
+      "upgrade_success": "アップグレード成功！機能がアンロックされました"
+    }
+  }
+}
+
+
