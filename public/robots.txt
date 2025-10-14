@@ -1,7 +1,12 @@
 User-agent: *
 
-# 只允许英文首页（根路径）
+# 允许所有多语言首页
 Allow: /$
+Allow: /ja/$
+Allow: /en/$
+Allow: /zh/$
+Allow: /pt/$
+Allow: /ms/$
 
 # 允许静态资源
 Allow: /favicon.ico
@@ -13,11 +18,9 @@ Allow: /imgs/
 Allow: /privacy-policy
 Allow: /terms-of-service
 
-# 阻止所有其他页面和语言版本
-Disallow: /zh
-Disallow: /pt
-Disallow: /ms
-Disallow: /en
+# 阻止未开发的功能页面
+Disallow: /quiz
+Disallow: /types
 Disallow: /posts
 Disallow: /about
 Disallow: /pricing
@@ -33,7 +36,6 @@ Disallow: /share
 Disallow: /pay-success
 Disallow: /auth
 
-
 # 阻止跟踪参数 URL
 Disallow: /*?ref=
 Disallow: /*?utm_source=
@@ -42,4 +44,4 @@ Disallow: /*?utm_campaign=
 Disallow: /*?gclid=
 Disallow: /*?fbclid=
 
-Sitemap: https://miniatur.org/sitemap.xml
+Sitemap: https://love-mbti.com/sitemap.xml
