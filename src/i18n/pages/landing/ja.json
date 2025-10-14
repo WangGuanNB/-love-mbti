@@ -85,7 +85,7 @@
       }
     ],
     "show_happy_users": true,
-    "show_badge": true
+    "show_badge": false
   },
   "introduce": {
     "name": "introduce",

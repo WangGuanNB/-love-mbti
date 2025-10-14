@@ -19,12 +19,12 @@
         },
         {
           "title": "Take Quiz",
-          "url": "/quiz",
+          "url": "#",
           "icon": "RiHeartLine"
         },
         {
           "title": "16 Types",
-          "url": "/types",
+          "url": "#",
           "icon": "RiGroupLine"
         }
       ]
@@ -41,7 +41,7 @@
     "announcement": {
       "label": "100% FREE",
       "title": "NO REGISTRATION",
-      "url": "/quiz"
+      "url": "#"
     },
     "images": [
       {
@@ -61,7 +61,7 @@
       {
         "title": "Start Free Test",
         "icon": "RiHeartLine",
-        "url": "/quiz",
+        "url": "#",
         "target": "_self",
         "variant": "default"
       }
@@ -84,7 +84,7 @@
       }
     ],
     "show_happy_users": true,
-    "show_badge": true
+    "show_badge": false
   },
   "introduce": {
     "name": "introduce",
@@ -248,7 +248,7 @@
       {
         "title": "Start Free Test",
         "icon": "RiHeartLine",
-        "url": "/quiz",
+        "url": "#",
         "target": "_self",
         "variant": "default"
       }
@@ -278,7 +278,7 @@
         },
         {
           "title": "16 Types",
-          "url": "/types"
+          "url": "#"
         }
       ]
     },

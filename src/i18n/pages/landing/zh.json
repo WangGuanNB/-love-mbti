@@ -19,12 +19,12 @@
         },
         {
           "title": "开始测试",
-          "url": "/quiz",
+          "url": "#",
           "icon": "RiHeartLine"
         },
         {
           "title": "16种类型",
-          "url": "/types",
+          "url": "#",
           "icon": "RiGroupLine"
         }
       ]
@@ -41,7 +41,7 @@
     "announcement": {
       "label": "100%免费",
       "title": "无需注册",
-      "url": "/quiz"
+      "url": "#"
     },
     "images": [
       {
@@ -61,7 +61,7 @@
       {
         "title": "立即免费测试",
         "icon": "RiHeartLine",
-        "url": "/quiz",
+        "url": "#",
         "target": "_self",
         "variant": "default"
       }
@@ -84,7 +84,7 @@
       }
     ],
     "show_happy_users": true,
-    "show_badge": true
+    "show_badge": false
   },
   "introduce": {
     "name": "introduce",
@@ -248,7 +248,7 @@
       {
         "title": "立即免费测试",
         "icon": "RiHeartLine",
-        "url": "/quiz",
+        "url": "#",
         "target": "_self",
         "variant": "default"
       }
@@ -278,7 +278,7 @@
         },
         {
           "title": "16种类型",
-          "url": "/types"
+          "url": "#"
         }
       ]
     },

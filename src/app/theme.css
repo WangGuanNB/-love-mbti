@@ -31,7 +31,15 @@
   --sidebar-accent-foreground: oklch(0.3394 0.0441 1.7583);
   --sidebar-border: oklch(0.8719 0.0198 302.1690);
   --sidebar-ring: oklch(0.6104 0.0767 299.7335);
-  --font-sans: Geist, sans-serif;
+  --font-sans: Geist, 
+    "Noto Sans JP", 
+    "Hiragino Sans", 
+    "Hiragino Kaku Gothic ProN", 
+    "Yu Gothic", 
+    "游ゴシック体", 
+    "Meiryo", 
+    "メイリオ", 
+    sans-serif;
   --font-serif: "Lora", Georgia, serif;
   --font-mono: "Fira Code", "Courier New", monospace;
   --radius: 0.5rem;

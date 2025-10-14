@@ -13,7 +13,7 @@ export default function FeatureWhatOne({ section }: { section: SectionType }) {
   
 
   return (
-    <section id={section.name} className="py-8 bg-muted/30">
+    <section id={section.name} className="py-8">
       <div className="container">
         <div className="mx-auto max-w-7xl">
           {/* Title area */}
@@ -42,7 +42,7 @@ export default function FeatureWhatOne({ section }: { section: SectionType }) {
               {section.items.map((item, i) => (
                 <Card 
                   key={i} 
-                  className="group transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-border bg-card shadow-lg h-full flex flex-col"
+                  className="group transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-border shadow-lg h-full flex flex-col"
                 >
                   <CardHeader className="pb-2 pt-3 px-3">
                     <div className="flex items-center justify-between mb-2">

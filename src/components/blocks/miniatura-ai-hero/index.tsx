@@ -94,8 +94,8 @@ export default function MiniaturaAIHero({ hero }: { hero: MiniaturaAIHeroType })
 
   return (
     <>
-      <HeroBg />
-      <section className="py-8 lg:py-16">
+      <section className="relative py-8 lg:py-16">
+        <HeroBg />
         <div className="container max-w-7xl">
           {hero.show_badge && (
             <div className="flex items-center justify-center mb-8">
