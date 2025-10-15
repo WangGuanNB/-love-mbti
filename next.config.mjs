@@ -39,7 +39,14 @@ const nextConfig = {
     return config;
   },
   
+  // 新增：超安全的性能优化
+  compress: true, // 启用gzip压缩
+  poweredByHeader: false, // 隐藏X-Powered-By响应头
+  swcMinify: true, // 启用SWC压缩器
+  
   images: {
+    formats: ['image/webp', 'image/avif'], // 支持现代格式（不强制使用）
+    minimumCacheTTL: 2592000, // 30天缓存
     remotePatterns: [
       {
         protocol: "https",
