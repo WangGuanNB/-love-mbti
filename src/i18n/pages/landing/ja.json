@@ -19,12 +19,12 @@
         },
         {
           "title": "診断する",
-          "url": "#",
+          "url": "/quiz",
           "icon": "RiHeartLine"
         },
         {
           "title": "16タイプ",
-          "url": "#",
+          "url": "/types",
           "icon": "RiGroupLine"
         }
       ]
@@ -61,10 +61,9 @@
       {
         "title": "今すぐ無料で診断",
         "icon": "RiHeartLine",
-        "url": "#",
+        "url": "/quiz",
         "target": "_self",
-        "variant": "default",
-        "disabled": true
+        "variant": "default"
       }
     ],
     "stats": [
@@ -249,10 +248,9 @@
       {
         "title": "今すぐ無料で診断",
         "icon": "RiHeartLine",
-        "url": "#",
+        "url": "/quiz",
         "target": "_self",
-        "variant": "default",
-        "disabled": true
+        "variant": "default"
       }
     ]
   },

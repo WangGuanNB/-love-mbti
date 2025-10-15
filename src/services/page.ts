@@ -1,4 +1,5 @@
 import { LandingPage, PricingPage, ShowcasePage, ConverterPage, ColorPage, AboutPage } from "@/types/pages/landing";
+import { TypesPage } from "@/types/pages/types";
 import { replaceSocialMediaUrls } from "@/lib/utils";
 
 export async function getLandingPage(locale: string): Promise<LandingPage> {
@@ -30,7 +31,7 @@ export async function getAboutPage(locale: string): Promise<AboutPage> {
 export async function getPage(
   name: string,
   locale: string
-): Promise<LandingPage | PricingPage | ShowcasePage | ConverterPage | ColorPage | AboutPage> {
+): Promise<LandingPage | PricingPage | ShowcasePage | ConverterPage | ColorPage | AboutPage | TypesPage> {
   try {
     if (locale === "zh-CN") {
       locale = "zh";
@@ -47,4 +48,8 @@ export async function getPage(
       (module) => module.default
     );
   }
+}
+
+export async function getTypesPage(locale: string): Promise<TypesPage> {
+  return (await getPage("types", locale)) as TypesPage;
 }

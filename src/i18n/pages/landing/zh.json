@@ -19,12 +19,12 @@
         },
         {
           "title": "开始测试",
-          "url": "#",
+          "url": "/quiz",
           "icon": "RiHeartLine"
         },
         {
           "title": "16种类型",
-          "url": "#",
+          "url": "/types",
           "icon": "RiGroupLine"
         }
       ]

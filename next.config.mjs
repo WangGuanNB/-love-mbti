@@ -16,6 +16,29 @@ const nextConfig = {
   reactStrictMode: false,
   trailingSlash: true, // 确保URL都带尾部斜杠，与canonical保持一致
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+  
+  // Webpack 配置：排除客户端打包时的 Node.js 模块
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // 客户端打包时，忽略这些 Node.js 模块
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        net: false,
+        tls: false,
+        crypto: false,
+        path: false,
+        os: false,
+        stream: false,
+        http: false,
+        https: false,
+        zlib: false,
+        perf_hooks: false,
+      };
+    }
+    return config;
+  },
+  
   images: {
     remotePatterns: [
       {

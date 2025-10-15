@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <!-- ========================================== -->
-  <!-- 当前生效：多语言首页 + 法律页面                -->
+  <!-- 当前生效：多语言首页 + 已开发功能页面        -->
   <!-- ========================================== -->
   
   <!-- 日文首页（默认） - 最高优先级 -->
   <url>
     <loc>https://love-mbti.com/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -16,87 +16,129 @@
   <!-- 其他语言首页 -->
   <url>
     <loc>https://love-mbti.com/en/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://love-mbti.com/zh/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 测试页面 -->
+  <url>
+    <loc>https://love-mbti.com/ja/quiz/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://love-mbti.com/pt/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <loc>https://love-mbti.com/en/quiz/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://love-mbti.com/zh/quiz/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 类型列表页面 -->
+  <url>
+    <loc>https://love-mbti.com/ja/types/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://love-mbti.com/ms/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://love-mbti.com/en/types/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <url>
+    <loc>https://love-mbti.com/zh/types/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 16种类型详情页面 - 日文 -->
+  <url><loc>https://love-mbti.com/ja/types/LCRO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/LCRE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/LCPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/LCPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/LARO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/LARE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/LAPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/LAPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FCRO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FCRE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FCPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FCPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FARO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FARE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FAPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/ja/types/FAPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- 16种类型详情页面 - 英文 -->
+  <url><loc>https://love-mbti.com/en/types/LCRO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/LCRE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/LCPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/LCPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/LARO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/LARE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/LAPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/LAPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FCRO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FCRE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FCPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FCPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FARO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FARE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FAPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/en/types/FAPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- 16种类型详情页面 - 中文 -->
+  <url><loc>https://love-mbti.com/zh/types/LCRO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/LCRE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/LCPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/LCPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/LARO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/LARE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/LAPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/LAPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FCRO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FCRE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FCPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FCPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FARO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FARE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FAPO/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://love-mbti.com/zh/types/FAPE/</loc><lastmod>2025-10-15T00:00:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   
   <!-- 法律页面（合规要求） -->
   <url>
     <loc>https://love-mbti.com/privacy-policy</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   
   <url>
     <loc>https://love-mbti.com/terms-of-service</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  
- 
-  <!-- ═══════════════════════════════════════════════════════════
-  待开放页面 - 完成后删除注释标记即可开放 Google 收录
-  ═══════════════════════════════════════════════════════════ -->
-  
-  <!-- 功能页面（待开发）
-  ────────────────────────────────────────────────────────── -->
-  <!-- <url>
-    <loc>https://love-mbti.com/quiz/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url> -->
-  
-  <!-- <url>
-    <loc>https://love-mbti.com/types/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url> -->
-  
-  <!-- <url>
-    <loc>https://love-mbti.com/posts/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url> -->
-  
-  <!-- <url>
-    <loc>https://love-mbti.com/about/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url> -->
-  
-  <!-- <url>
-    <loc>https://love-mbti.com/pricing/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url> -->
 
 </urlset>

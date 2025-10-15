@@ -6,8 +6,8 @@ export const localeNames: any = {
   ja: "日本語",
   en: "English",
   zh: "简体中文",
-  pt: "Português",
-  ms: "Bahasa Melayu",
+  // pt: "Português",
+  // ms: "Bahasa Melayu",
 };
 
 export const defaultLocale = "ja";

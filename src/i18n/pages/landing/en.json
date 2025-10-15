@@ -19,12 +19,12 @@
         },
         {
           "title": "Take Quiz",
-          "url": "#",
+          "url": "/quiz",
           "icon": "RiHeartLine"
         },
         {
           "title": "16 Types",
-          "url": "#",
+          "url": "/types",
           "icon": "RiGroupLine"
         }
       ]

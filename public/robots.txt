@@ -1,12 +1,10 @@
 User-agent: *
 
-# 允许所有多语言首页
+# 允许所有多语言首页（暂时移除 pt/ms）
 Allow: /$
 Allow: /ja/$
 Allow: /en/$
 Allow: /zh/$
-Allow: /pt/$
-Allow: /ms/$
 
 # 允许静态资源
 Allow: /favicon.ico
@@ -18,9 +16,17 @@ Allow: /imgs/
 Allow: /privacy-policy
 Allow: /terms-of-service
 
+# 允许已开发完成的功能页面
+Allow: /quiz
+Allow: /types
+Allow: /*/quiz
+Allow: /*/types
+
+# 暂时阻止未完成的语言版本
+Disallow: /pt/
+Disallow: /ms/
+
 # 阻止未开发的功能页面
-Disallow: /quiz
-Disallow: /types
 Disallow: /posts
 Disallow: /about
 Disallow: /pricing
