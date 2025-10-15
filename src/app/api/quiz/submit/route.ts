@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     }
 
     // 获取IP地址
-    const ipAddress = getClientIp(req);
+    const ipAddress = await getClientIp();
 
     // 生成 UUID
     const uuid = randomUUID();
