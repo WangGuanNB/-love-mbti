@@ -298,7 +298,74 @@
         }
       ]
     },
-    "badges": [],
+    "badges": [
+      {
+        "title": "Featured on Twelve Tools",
+        "url": "https://twelve.tools",
+        "target": "_blank",
+        "image": {
+          "src": "https://twelve.tools/badge0-white.svg",
+          "alt": "Featured on Twelve Tools",
+          "width": 200,
+          "height": 54
+        }
+      },
+      {
+        "title": "AIStage",
+        "url": "https://aistage.net",
+        "target": "_blank",
+        "image": {
+          "src": "",
+          "alt": "AIStage",
+          "width": 120,
+          "height": 40
+        }
+      },
+      {
+        "title": "Listed on Turbo0",
+        "url": "https://turbo0.com/item/lovembti",
+        "target": "_blank",
+        "image": {
+          "src": "https://img.turbo0.com/badge-listed-light.svg",
+          "alt": "Listed on Turbo0",
+          "width": 120,
+          "height": 54
+        }
+      },
+      {
+        "title": "Featured on ShowMeBestAI",
+        "url": "https://www.showmebest.ai",
+        "target": "_blank",
+        "image": {
+          "src": "https://www.showmebest.ai/badge/feature-badge-white.webp",
+          "alt": "Featured on ShowMeBestAI",
+          "width": 220,
+          "height": 60
+        }
+      },
+      {
+        "title": "AI Nav Site",
+        "url": "https://navs.site",
+        "target": "_blank",
+        "image": {
+          "src": "",
+          "alt": "AI Sites | 2025",
+          "width": 100,
+          "height": 30
+        }
+      },
+      {
+        "title": "SeekTool.ai Tools Directory",
+        "url": "https://seektool.ai/",
+        "target": "_blank",
+        "image": {
+          "src": "",
+          "alt": "SeekTool.ai Tools Directory",
+          "width": 120,
+          "height": 30
+        }
+      }
+    ],
     "agreement": {
       "items": [
         {
